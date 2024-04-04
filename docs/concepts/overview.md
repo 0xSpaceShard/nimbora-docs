@@ -4,54 +4,61 @@ title: About Nimbora
 sidebar_position: 1
 ---
 
-# Nimbora Overview
+# **About Nimbora**
 
-Nimbora is a 1-click DeFi pooling product, incubated by the [SpaceShard team](https://www.spaceshard.io/).
+[Nimbora](https://www.nimbora.io/) is a Starknet-based cross-chain yield strategy platform that enables users to engage with Layer 1 protocols at a fraction of the cost. Powered by the innovative minds at the [SpaceShard team](https://www.spaceshard.io/), we leverage Starknet's Zero-Knowledge Rollups to provide cost-effective DeFi strategies without compromising security or trust.
 
-It is a platform that offers you the opportunity to interact with your favorite Layer 1 (L1) protocols at a fraction of the cost of Layer 2 (L2) solutions. The idea behind it is to scale L1 DeFi through seamless L2 execution, all while maintaining super-low fees. The technology behind Nimbora is Zero-Knowledge Rollups, currently Starknet - a permissionless decentralized ZK-Rollup that operates as an L2 network over Ethereum. To put it simply, Nimbora scales L1 DeFi products completely trustlessly using rollups.
+![Untitled](https://i.ibb.co/bzSCPw5/Nimbora-Troves.png)
 
-You can learn more about Nimbora by following us on [Medium](https://medium.com/@Nimbora), [Twitter](https://twitter.com/nimbora_io), or by joining our [Discord group](https://discord.gg/feJJnkmYzc).
+## **Starknet: The Backbone of Efficient DeFi**
 
-You can also check out our founder's talk from ETHDenver about the [experience of building Nimbora: a Cross-Chain Yield DEX on Starknet](https://twitter.com/i/status/1762609002435727749)
+Starknet transforms Ethereum transactions with zk-STARKs technology, promising faster, more affordable, and secure exchanges. The introduction of the [STRK token](https://www.starknet.io/en/content/claiming-your-strk) on February 20, 2024, marks a pivotal moment, enhancing the DeFi landscape by offering:
 
-## Starknet
+- **Low-cost Transactions:** Significantly reducing the financial barrier to entry.
+- **Developer-friendly Environment:** Encouraging innovation and growth.
+- **Speed and Efficiency:** Streamlining operations within the blockchain.
 
-Starknet is a Layer-2 network that utilizes zk-STARKs technology to enhance Ethereum transactions. It aims to make transactions faster, cheaper, and more secure. Official Starknet token is [STRK](https://www.starknet.io/en/content/claiming-your-strk), launched on Feb 20, 2024.
+You can read more about Starknet's capabilities [here](https://www.starknet.io/en) and explore DeFi insights through [Spaceshard's blog](https://www.spaceshard.io/blog/learning-starknet-community-edu-resources).
 
-:::note
-Key features:
-- Low costs
-- Developer-friendly
-- Speed and efficiency
-:::
+## **Wallet Compatibility: Simplified Access**
 
-More info at [Starknet website](https://www.starknet.io/en) or check [Spaceshard's blog](https://www.spaceshard.io/blog/learning-starknet-community-edu-resources) to learn about Starknet.
+![Untitled](https://i.ibb.co/khknbwX/Nimbora-Wallet.png)
 
-## What wallets can I connect with?
+Nimbora supports the [Argent X](https://www.argent.xyz/argent-x/) and [Braavos](https://braavos.app/) wallets, combining simplicity with security to enhance your DeFi interactions. 
 
-At the moment, Nimbora supports compatibility with [Argent X wallet](https://www.argent.xyz/argent-x/) and [Braavos wallet](https://braavos.app/). Argent X is a smart wallet designed to provide a simple and secure way to manage and invest digital assets. On the other hand, Braavos wallet is a decentralized wallet known for its user-friendly interface and high-level security features. The integration of these wallets with Nimbora allows users to conveniently interact with preferred Layer 1 protocols at a significantly reduced cost. Nimbora is committed to enhancing user experience and thus, plans to integrate more wallets in the near future.
+## Nimbora benefits
 
-:::important
+- **Maximizing Cost-Efficiency with Nimbora**
+    
+    Nimbora drastically lowers transaction costs via Starknet's L2 solution, offering gas fees up to seven times less than those on the Ethereum mainnet. Our approach makes DeFi more accessible and economical for everyone.
+    
+- **Innovative Transaction Batching**
+    
+    Our unique batching mechanism pools transactions, allowing DeFi interactions on the L1 network at a fraction of the usual cost. This process not only reduces expenses but also makes DeFi more inclusive.
+    
+- **N-Yield Tokens: A New Frontier**
+    
+    N-Yield tokens, like N-sDAI and N-wstETH, represent the yield from DeFi strategies within Nimbora. These tokens, adaptable across various protocols, offer flexibility and open a realm of possibilities for managing your DeFi investments.
+    
+- **$STRK incentives with Nimbora**
+    
+    For an in-depth exploration of STRK incentives, zero L1 gas fees, and more, check out our detailed post: [Nimbora x Liquity DeFi Spring](https://medium.com/@Nimbora/nimbora-x-liquity-defispring-high-apr-zero-l1-gas-borrowing-6b5b78dbab4e).
+    
 
-Please be aware that **there is still no official Nimbora token launched,** nor a public sale of Nimbora tokens by any entity! Be alert for scams around any token claims and provisions, including fake links and accounts impersonating Nimbora. Make sure to follow the information in our official channels only:
+## **A Word of Caution: Stay Vigilant**
 
-[Twitter](https://twitter.com/nimbora_)
+*🐧⚠️ Nimbora has yet to launch an official token. Please remain vigilant against potential scams and rely solely on our official channels for accurate information:*
 
-[Discord](https://discord.gg/feJJnkmYzc)
+- 🌐 [Website](https://www.nimbora.io/)
+- 👨‍💻 [DApp](https://app.nimbora.io/)
+- 🐦 [Twitter](https://twitter.com/Nimbora_)
+- 👋 [Discord](http://discord.gg/nimbora)
+- 💼 [LinkedIn](https://www.linkedin.com/company/nimbora/)
+- ✉️ [Newsletter](https://bit.ly/nimboranewsletter)
+- 📖 [Medium](https://medium.com/@Nimbora)
 
-[Website](https://www.nimbora.io/)
+## **Need Help?**
 
-[Medium](https://medium.com/@Nimbora)
+For technical support or questions about Starknet integration, join our [Discord](https://discord.gg/nimbora) community.
 
-[LinkedIn](https://www.linkedin.com/company/nimbora/)
-
-Email subscription: link coming soon
-:::
-
-## Where can I get help?
-
-To report any issue, please click at "FEEDBACK" button directly on https://app.nimbora.io/ (see image below).
-
-![feedback](/content/feedback.png)
-
-If you have technical questions about this integration or Starknet in general, you can join [Nimbora Discord server](https://discord.gg/feJJnkmYzc).
+![https://discord.gg/nimbora](https://i.ibb.co/23npZRk/Nimbora-Discord.png)
