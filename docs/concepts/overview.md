@@ -61,4 +61,4 @@ Nimbora supports the [Argent X](https://www.argent.xyz/argent-x/) and [Braavos](
 
 For technical support or questions about Starknet integration, join our [Discord](https://discord.gg/nimbora) community.
 
-![https://discord.gg/nimbora](https://i.ibb.co/23npZRk/Nimbora-Discord.png)
+[![Nimbora Discord](https://i.ibb.co/23npZRk/Nimbora-Discord.png)](https://discord.gg/nimbora)
