@@ -10,6 +10,7 @@ import Layout from '@theme/Layout';
 import styled from '@emotion/styled';
 import ThemedImage from '@theme/ThemedImage';
 import '../css/custom.css';
+import useBaseUrl from '@docusaurus/useBaseUrl'
 
 import { ArrowUpRight as LinkIcon, BookOpen, HelpCircle, Info } from 'react-feather';
 
@@ -18,22 +19,22 @@ export const actions = [
   {
     title: 'What is Nimbora',
     icon: HelpCircle,
-    to: '/docs/concepts/overview',
-    text: 'Learn how to interact with L1 & L2 strategies on Nimbora',
+    to: '/docs/concepts/introduction',
+    text: 'Explore protocol concepts and follow our guides to earn and borrow with Nimbora.',
     image: Spacebbit
   },
   {
     title: 'Nimbora Smart Contracts',
     icon: Info,
     to: '/docs/contracts/architecture/overview',
-    text: 'Learn how to start using Nimbora smart contracts',
+    text: 'A deep dive into Nimbora smart contracts',
     image: Bora
   },
   {
     title: 'Integrate with Nimbora',
     icon: BookOpen,
     to: '/docs/sdks/sdk/overview',
-    text: 'Learn how to integrate Nimbora with your application',
+    text: 'Learn how to integrate Nimbora in your application using our SDKs',
     image: Nimi
   }
 ]
@@ -58,20 +59,15 @@ export const dAppGuides = [
 
 export const strategyGuides = [
   {
-    title: 'LUSD Strategy',
-    to: '/docs/concepts/strategies/liquity',
+    title: 'Borrow Strategy',
+    to: '/docs/concepts/guide/borrow',
     text: 'Learn how to borrow LUSD',
   },
-  // {
-  //   title: 'sDAI Strategy',
-  //   to: '/docs/concepts/strategies/sdai',
-  //   text: 'Learn how to deposit DAI',
-  // },
-  // {
-  //   title: 'Liquid Staking',
-  //   to: '/docs/concepts/strategies/liquidStaking',
-  //   text: 'Learn how to stake ETH',
-  // }
+  {
+    title: 'Earn Strategy',
+    to: '/docs/concepts/guide/earn',
+    text: 'Discover how to access diverse yield opportunities',
+  },
 
 ]
 
@@ -109,30 +105,30 @@ const Row = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
   justify-content: center;
-  margin: 0 auto;
-  padding: 1rem 0;
-  max-width: auto;
+  max-width: 960px;
 
   @media (max-width: 960px) {
     grid-template-columns: 1fr;
-    padding: 1rem;
-    max-width: 100%;
     margin: 0 1rem;
+    max-width: 100%;
   }
   @media (max-width: 640px) {
-    grid-template-columns: 1fr;
+    margin: 0 5px;
   }
 `
 
 const TwoRow = styled(Row)`
   grid-template-columns: 1fr 1fr;
   grid-gap: 48px;
+  
+  padding: 4rem 0;
 
   @media (max-width: 960px) {
     grid-template-columns: 1fr;
   }
   @media (max-width: 640px) {
     grid-template-columns: 1fr;
+    text-align:center;
   }
 `
 
@@ -175,7 +171,10 @@ const ShadowCard = styled(Card)`
   background-color: #ffffff10;
   backdrop-filter: blur(10px);
   min-height: 200px;
-  /* background-color: var(--ifm-color-emphasis-0); */
+  padding: 1rem;
+`
+
+const BlurCard = styled.div`
 `
 
 const DocsHeader = styled.div`
@@ -183,27 +182,17 @@ const DocsHeader = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
   width: 100%;
-  position: relative;
+  postion: relative;
 `
 
 const StyledImage = styled(ThemedImage)`
-  position: relative;
-  z-index: -1;
-  width: 100%;
-  object-fit: cover;
-`
-
-const StyledTitleImage = styled(StyledImage)`
   width: 100%;
   height: 100%;
-  object-fit: cover;
   z-index: -1;
   position: absolute;
-  opacity: 0.2;
-  mask-image: linear-gradient(rgba(0, 0, 0, 1), transparent);
 `
+
 
 const HideMedium = styled.div`
   @media (max-width: 960px) {
@@ -236,19 +225,26 @@ const StyledIcon = styled.div`
   }
 `
 
+
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout title={'Nimbora Docs | Nimbora Yield Dex'} description='Welcome to Nimbora Docs! Learn more about how to use Nimbora. Get informed about Nimbora mechanism, SDK and more'>
       <Container>
       <DocsHeader>
+      <StyledImage
+            sources={{
+              light: useBaseUrl('/img/bg_nimb-white.svg'),
+              dark: useBaseUrl('/img/bg_nimb-dark.svg'),
+            }}
+          />
           <div
             style={{
-              padding: '4rem 0  ',
               textAlign: 'center',
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
+              padding:'2rem 0'
             }}
           >
             <h1 style={{ fontWeight: 600 }}> Welcome to Nimbora Docs</h1>
@@ -275,14 +271,10 @@ export default function Home() {
             ))}
           </Row>
         </DocsHeader>
-        <TwoRow
-          style={{
-            gap: '56px',
-            marginTop: '4rem',
-          }}
-        >
-          <div>
-            <h2>Learn how to use Nimbora Strategies</h2>
+
+        <TwoRow>
+          <BlurCard >
+            <h2>Learn how to use Nimbora</h2>
             <p>Explore these guided tutorials to get started interacting with different startegies</p>
             <div>
               {strategyGuides.map((action) => (
@@ -301,10 +293,10 @@ export default function Home() {
                 </Link>
               ))}
             </div>
-          </div>
-          <div>
-            <h2>Integrate your dAPP</h2>
-            <p>Explore these guided tutorials to get started integrating with Nimbora in your dApp.</p>
+          </BlurCard>
+          <BlurCard>
+            <h2>Integrate Nimbora into your dAPP</h2>
+            <p>Explore these guided tutorials to get started integrating Nimbora in your dApp.</p>
             <div>
               {dAppGuides.map((action) => (
                 <Link style={{ textDecoration: 'none' }} key={action.title} to={action.to}>
@@ -322,10 +314,11 @@ export default function Home() {
                 </Link>
               ))}
             </div>
-          </div>
+          </BlurCard>
         </TwoRow>
         <hr />
-        <Row>
+
+        <Row style={{ padding: '2rem 0' }}>
           <Link style={{ textDecoration: 'none' }} href={'http://discord.gg/nimbora'}>
             <CenterCard>
               <Discord style={{ width: '48px', height: '48px' }} />
@@ -342,7 +335,7 @@ export default function Home() {
               </StyledIcon>
               <div>
                 <h3>Medium</h3>
-                <p>Discuss governance and more.</p>
+                <p>Check out our latest articles on our blog.</p>
               </div>
             </CenterCard>
           </Link>
@@ -353,7 +346,7 @@ export default function Home() {
               </StyledIcon>
               <div>
                 <h3>GitHub</h3>
-                <p>View all Nimbora repositories.</p>
+                <p>Look at Nimbora repositories.</p>
               </div>
             </CenterCard>
           </Link>

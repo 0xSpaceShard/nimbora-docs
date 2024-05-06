@@ -27,7 +27,7 @@
   --ifm-color-primary-light: #dce034;
   --ifm-color-primary-lighter: #dce034;
   --ifm-color-primary-lightest: #dce034;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --docusaurus-highlighted-code-line-bg: rgba(203, 36, 36, 0.3);
 }
 
 @font-face {

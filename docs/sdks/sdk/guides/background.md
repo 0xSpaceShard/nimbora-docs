@@ -26,4 +26,4 @@ Each smart contract offers an Application Binary Interface (ABI), enabling other
 
 ### Currency
 
-Currently, the [Starknet](/docs/concepts/overview#starknet) network uses the ERC20 version of Ethereum (ETH) for transaction fees. ERC20 is a standard used for smart contracts on the Ethereum blockchain for implementing tokens. However, Starknet plans to transition to using its own native token, STRK, for transaction costs in the future. This shift will occur to further establish Starknet's ecosystem and potentially bring about new dynamics and utilities within the network.
+Currently, the Starknet network uses the ERC20 version of Ethereum (ETH) for transaction fees. ERC20 is a standard used for smart contracts on the Ethereum blockchain for implementing tokens. However, Starknet plans to transition to using its own native token, STRK, for transaction costs in the future. This shift will occur to further establish Starknet's ecosystem and potentially bring about new dynamics and utilities within the network.

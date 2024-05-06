@@ -4,7 +4,7 @@ title: Withdrawing from strategy
 sidebar_position: 4
 ---
 
-A withdrawal involves transferring assets from the Layer 2 Token Manager contract on the [Starknet](/docs/concepts/overview#starknet) network to the Ethereum mainnet. This is a two-step operation. 
+A withdrawal involves transferring assets from the Layer 2 Token Manager contract on the Starknet network to the Ethereum mainnet. This is a two-step operation. 
 
 First, you call the `requestWithdrawal` function, specifying the number of shares to be converted back into Ethereum tokens. These shares reflect the balance in the Token Manager contract. 
 

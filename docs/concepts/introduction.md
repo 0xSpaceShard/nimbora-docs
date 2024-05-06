@@ -1,24 +1,29 @@
 ---
-id: overview
-title: About Nimbora
+id: introduction
+title: Introduction
 sidebar_position: 1
 ---
 
-# **About Nimbora**
+[Nimbora](https://www.nimbora.io/) is a Starknet-based infrastructure enabling users to earn and borrow on Layer 1 protocols with significantly reduced costs. Powered by the innovative minds at the [SpaceShard team](https://www.spaceshard.io/), we leverage Starknet ZK Rollup to provide cost-effective DeFi strategies without compromising security or trust.
 
-[Nimbora](https://www.nimbora.io/) is a Starknet-based cross-chain yield strategy platform that enables users to engage with Layer 1 protocols at a fraction of the cost. Powered by the innovative minds at the [SpaceShard team](https://www.spaceshard.io/), we leverage Starknet's Zero-Knowledge Rollups to provide cost-effective DeFi strategies without compromising security or trust.
+![About](/img/about.png)
 
-![Untitled](https://i.ibb.co/bzSCPw5/Nimbora-Troves.png)
+
+
+When considering cross-chain strategies, many products rely on zap systems, bridge funds, and relayers to execute desired actions. Nimbora stands out by aggregating these intents into pools, batching them to accommodate multiple users, and executing transactions efficiently. This approach enables a single transaction to execute multiple L2 transactions, drastically reducing gas costs. Nimbora abstracts these complexities for users, allowing seamless and gasless utilization of L1 strategies from L2. With Nimbora, accessing and utilizing cross-chain strategies becomes effortless.
+<!-- 
+
 
 ## **Starknet: The Backbone of Efficient DeFi**
 
-Starknet transforms Ethereum transactions with zk-STARKs technology, promising faster, more affordable, and secure exchanges. The introduction of the [STRK token](https://www.starknet.io/en/content/claiming-your-strk) on February 20, 2024, marks a pivotal moment, enhancing the DeFi landscape by offering:
+Starknet revolutionizes Ethereum transactions with zk-STARKs technology, ensuring faster, more affordable, and secure exchanges, reshaping the DeFi landscape through:
 
 - **Low-cost Transactions:** Significantly reducing the financial barrier to entry.
+- **Superior UX:** Offering streamlined, user-friendly interactions (Native Account Abstraction).
 - **Developer-friendly Environment:** Encouraging innovation and growth.
-- **Speed and Efficiency:** Streamlining operations within the blockchain.
+- **Speed and Efficiency:** Optimizing processes across the blockchain.
 
-You can read more about Starknet's capabilities [here](https://www.starknet.io/en) and explore DeFi insights through [Spaceshard's blog](https://www.spaceshard.io/blog/learning-starknet-community-edu-resources).
+You can read more about Starknet's capabilities [here](https://www.starknet.io/en) and explore insights through [Spaceshard's blog](https://www.spaceshard.io/blog/learning-starknet-community-edu-resources).
 
 ## **Wallet Compatibility: Simplified Access**
 
@@ -60,4 +65,4 @@ Nimbora supports the [Argent X](https://www.argent.xyz/argent-x/) and [Braavos](
 ## **Need Help?**
 
 For technical support or questions about Starknet integration, join our [Discord](https://discord.gg/nimbora) community.
-[![Nimbora Discord](https://i.ibb.co/23npZRk/Nimbora-Discord.png)](https://discord.gg/nimbora)
+[![Nimbora Discord](https://i.ibb.co/23npZRk/Nimbora-Discord.png)](https://discord.gg/nimbora) -->

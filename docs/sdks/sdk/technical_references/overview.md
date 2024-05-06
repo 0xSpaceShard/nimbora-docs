@@ -21,7 +21,7 @@ sidebar_position: 1
 - [listUserRequestWithdrawal](/docs/sdks/sdk/technical_references/token_manager#listuserrequestwithdrawal)
 - [_formatRequestWithdrawal](/docs/sdks/sdk/technical_references/token_manager#_formatrequestwithdrawal)
 - [lastUserRequestWithdrawal](/docs/sdks/sdk/technical_references/token_manager#lastuserrequestwithdrawal)
-- [shareToUnderlying](/docs/sdks/sdk/technical_references/token_manager#sharetounderyling)
+- [shareToUnderlying](/docs/sdks/sdk/technical_references/token_manager)
 - [UnderlyingToShare](/docs/sdks/sdk/technical_references/token_manager#underlyingtoshare)
 - [deposit](/docs/sdks/sdk/technical_references/token_manager#deposit)
 - [requestWithdrawal](/docs/sdks/sdk/technical_references/token_manager#requestwithdrawal)

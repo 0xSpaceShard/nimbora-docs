@@ -22,6 +22,6 @@ The Token Manager contains all the logic for strategy accountability. This is ac
 
 ### Token
 
-The Token contract represents users's share of the L1 strategy pool, increasing in value at each epoch. Since the Token contract is based on the ERC20 standard, it can be used in DeFi through the [Starknet](/docs/concepts/overview#starknet) ecosystem.
+The Token contract represents users's share of the L1 strategy pool, increasing in value at each epoch. Since the Token contract is based on the ERC20 standard, it can be used in DeFi through the Starknet ecosystem.
 
 ![l2_arch](/content/L2_arch.png)
