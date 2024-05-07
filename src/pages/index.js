@@ -21,21 +21,21 @@ export const actions = [
     icon: HelpCircle,
     to: '/docs/concepts/introduction',
     text: 'Explore protocol concepts and follow our guides to earn and borrow with Nimbora.',
-    image: Spacebbit
+    image: Bora
+  },
+    {
+    title: 'Integrate with Nimbora',
+    icon: BookOpen,
+    to: '/docs/sdks/sdk/overview',
+    text: 'Learn how to integrate Nimbora in your application using our SDKs',
+    image: Nimi
   },
   {
     title: 'Nimbora Smart Contracts',
     icon: Info,
     to: '/docs/contracts/architecture/overview',
     text: 'A deep dive into Nimbora smart contracts',
-    image: Bora
-  },
-  {
-    title: 'Integrate with Nimbora',
-    icon: BookOpen,
-    to: '/docs/sdks/sdk/overview',
-    text: 'Learn how to integrate Nimbora in your application using our SDKs',
-    image: Nimi
+    image: Spacebbit
   }
 ]
 
