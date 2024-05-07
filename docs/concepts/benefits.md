@@ -16,7 +16,7 @@ You're eager to deposit funds into a L1 DeFi protocol to earn yields or borrow a
 | Borrow / Repay   | 580K - 900K    | 0.025470271 - 0.039561244     | $76.410813 - $118.683732 |
 
 
-Given the prevalent gas prices averaging around 40 Gwei, it's evident that gas fees pose a significant challenge for portfolios of low to medium value. For instance, a $100 gas cost could equate to 1% of a $10,000 portfolio, a substantial proportion that can impact overall returns. This issue is further compounded when adjustments or rebalancing of positions are required.
+Given the prevalent gas prices that spike on mainnet, it’s evident that gas fees pose a significant challenge for portfolios of low to medium value. For instance, a $100 gas cost could equate to 1% of a $10,000 portfolio, a substantial proportion that can impact overall returns. This issue is further compounded when adjustments or rebalancing of positions are required.
 
 At Nimbora, our primary objective is to foster inclusivity within the realm of DeFi. We firmly believe that individuals should have the opportunity to earn yields, regardless of whether they're investing $50 or $5,000. Financial constraints should never be a barrier to entry.
 
