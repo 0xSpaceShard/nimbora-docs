@@ -1484,7 +1484,7 @@
     "@docusaurus/theme-search-algolia" "3.1.1"
     "@docusaurus/types" "3.1.1"
 
-"@docusaurus/react-loadable@5.5.2", "react-loadable@npm:@docusaurus/react-loadable@5.5.2":
+"@docusaurus/react-loadable@5.5.2":
   version "5.5.2"
   resolved "https://registry.yarnpkg.com/@docusaurus/react-loadable/-/react-loadable-5.5.2.tgz#81aae0db81ecafbdaee3651f12804580868fa6ce"
   integrity sha512-A3dYjdBGuy0IGT+wyLIGIKLRE+sAk1iNk0f1HjNDysO7u8lhL4N3VEm+FAubmJbAztn94F7MxBTPmnixbiyFdQ==
@@ -1946,10 +1946,10 @@
     p-map "^4.0.0"
     webpack-sources "^3.2.2"
 
-"@snyk/protect@^1.1280.0":
-  version "1.1280.0"
-  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1280.0.tgz#4353a5d5ef11b1f61e70fd602f4ce60fffac7b88"
-  integrity sha512-huyztYdA2UzgEG4JGlJBDs8mnQyHisXbH6Onv58nrIjFa2mPhsZx2l0/Ey6HKOKva+ZlpMYM3hz4+iboIlXfNw==
+"@snyk/protect@latest":
+  version "1.1291.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1291.0.tgz#95c8a53c4d6711aeff9a853d0c82c07c84d6982a"
+  integrity sha512-BRbgzSOSlzIBmhdEqM0y0q8uhYd2h+tfl3OuMH62JvQ+AI9lFV5Va99gl+wqS8GBBOohQmIh4HnuD25LMCdO7Q==
 
 "@svgr/babel-plugin-add-jsx-attribute@^6.5.1":
   version "6.5.1"
@@ -8208,6 +8208,14 @@ react-loadable-ssr-addon-v5-slorber@^1.0.1:
   integrity sha512-lq3Lyw1lGku8zUEJPDxsNm1AfYHBrO9Y1+olAYwpUJ2IGFBskM0DMKok97A6LWUpHm+o7IvQBOWu9MLenp9Z+A==
   dependencies:
     "@babel/runtime" "^7.10.3"
+
+"react-loadable@npm:@docusaurus/react-loadable@5.5.2":
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/@docusaurus/react-loadable/-/react-loadable-5.5.2.tgz#81aae0db81ecafbdaee3651f12804580868fa6ce"
+  integrity sha512-A3dYjdBGuy0IGT+wyLIGIKLRE+sAk1iNk0f1HjNDysO7u8lhL4N3VEm+FAubmJbAztn94F7MxBTPmnixbiyFdQ==
+  dependencies:
+    "@types/react" "*"
+    prop-types "^15.6.2"
 
 react-router-config@^5.1.1:
   version "5.1.1"

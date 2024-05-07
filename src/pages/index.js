@@ -23,19 +23,20 @@ export const actions = [
     image: Spacebbit
   },
   {
-    title: 'Nimbora Smart Contracts',
-    icon: Info,
-    to: '/docs/contracts/architecture/overview',
-    text: 'Learn how to start using Nimbora smart contracts',
-    image: Bora
-  },
-  {
     title: 'Integrate with Nimbora',
     icon: BookOpen,
     to: '/docs/sdks/sdk/overview',
     text: 'Learn how to integrate Nimbora with your application',
     image: Nimi
+  },
+  {
+    title: 'Nimbora Smart Contracts',
+    icon: Info,
+    to: '/docs/contracts/architecture/overview',
+    text: 'Learn how to start using Nimbora smart contracts',
+    image: Bora
   }
+  
 ]
 
 export const dAppGuides = [
