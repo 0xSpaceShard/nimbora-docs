@@ -1,7 +1,7 @@
 ---
 id: first_steps
 title: First Steps
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 ## Getting Started on Starknet

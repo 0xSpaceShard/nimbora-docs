@@ -4,8 +4,87 @@ title: Liquity Strategy
 sidebar_position: 1
 ---
 
+
 **Liquity strategy allows users to borrow LUSD**, a stablecoin pegged to the U.S. dollar, using ETH as collateral. This strategy is beneficial for users who want to leverage their assets without selling them.  If ETH value goes up while the loan is active, repaying it becomes more profitable as users get back their ETH, now more valuable. On top of this, participating in this strategy now comes with a bonus: a ~45% APR in STRK tokens, paid out every two weeks, thanks to the [DeFi Spring initiative.](https://medium.com/@Nimbora/defi-spring-just-got-better-earn-strk-with-nimbora-x-liquity-d7e881f22c38)
 
+## First Steps
+
+The process begins by visiting the Nimbora platform at https://app.nimbora.io/
+
+Click “**Connect Wallet**” in the top right corner 
+
+![Untitled](https://i.imgur.com/SaXJ9qq.png) 
+
+Select one of the two available wallet options ([Braavos](https://braavos.app/) or [ArgentX](https://argent.xyz/)) 
+
+![Untitled](https://i.imgur.com/pwjsKxV.png)
+
+For the sake of this tutorial we will be using **Argent X** wallet extension. 
+
+![Untitled](https://i.imgur.com/517pTc6.png)
+
+Follow the notification prompt and click on “**Connect**” 
+
+![Untitled](https://i.imgur.com/pnBwOEo.png)
+
+### This enable Nimbora to:
+
+- Read your wallet address
+- Request transactions
+
+*You will still need to sign any new transaction*
+
+Voila! “**Connect wallet**”  will be replaced with your wallet address, indicating you are successfully connected. 
+
+![Untitled](https://i.imgur.com/31dDkrK.png)
+
+## Understanding the Borrow Section
+
+There are 2 cards (troves) with 2 different TCR (total collateral ratio). The CR is not fixed**, as its value is pegged to the ETH price.** That is why the screenshot below might not match the current numbers you will see once you open the troves. 
+
+![Untitled](https://i.imgur.com/ERJ3ast.png)
+
+**TCR is the percentage of assets you need to lock up as collateral when borrowing**. If you want to borrow $100 and the TCR is 676%, you must provide $676 worth of assets as collateral.
+
+![Untitled](https://i.imgur.com/4HseVPI.png)
+
+Enter the desired amount and follow the prompt. 
+
+![Untitled](https://i.imgur.com/nqH7qmS.png)
+
+Nimbora thrives on efficiency, offering **ZERO L1 gas fees**. This enables you to borrow for under $0.025 per transaction, making your borrowing experience smooth and cost-effective.
+
+![Untitled](https://i.imgur.com/Nwrn0QS.png)
+
+## **Which trove should you select?**
+
+This depends on how much LUSD you want to borrow and ongoing initiatives. 
+
+The left trove offers a unique opportunity for users to borrow with minimal transaction costs, subsidized by the [Nimbora x Liquity](https://medium.com/@Nimbora/defi-spring-just-got-better-earn-strk-with-nimbora-x-liquity-d7e881f22c38) collaboration.
+
+## Understanding collateral
+
+![Untitled](https://i.imgur.com/3gF7AI3.png)
+
+Lets take as an example this image above - trove 604 TCR will require **less collateral** compared to Trove 910 CR, but Trove 910 TCR is **more secure** than Trove 604 .
+
+Consider this scenario: if all troves were open when the ETH price was at $1600, Trove 910 would have a higher tolerance for price fluctuations compared to Trove 604, allowing it to withstand a more significant drop in ETH price before facing liquidation.
+
+Once the collateral is deposited and locked, users can borrow against it according to the platform's loan-to-value ratio.   If the value of the collateral falls below certain thresholds, the system may automatically liquidate the assets to repay the loan. 
+
+### Repay the Loan
+
+You can repay the loan to avoid liquidation. Back on the strategy homepage, you will see the “**Repay**” button on the trove you have interacted with. 
+
+![Untitled](https://i.imgur.com/h82KXzB.png)
+
+To repay your debt you need to first check the debt balance of an account.
+
+![Untitled](https://i.imgur.com/FoymkHr.png)
+
+At the TCR of 550%, repaying the loan of 0.45 LUSD will get us back **0.00076** ETH which is an equivalent of around $2.5.  
+
+![Untitled](https://i.imgur.com/DYkDgWe.png)
 
 ### What is Liquity?
 
@@ -51,35 +130,6 @@ sidebar_position: 1
 
   - If you don’t have enough LUSD in your account you can use the [Starkgate](https://starkgate.starknet.io/) bridge to bridge the LUSD amount required to pay your debt and get back your collateral.
 
-
-
-### Understanding Risks Associated with Liquity
-
-1. **Smart Contract Risk**:
-  - Liquity, like any other DeFi protocol, is vulnerable to smart contract exploits. Despite efforts to audit and secure the smart contracts, there remains a risk of undiscovered vulnerabilities. Exploits can lead to loss of funds or manipulation of the protocol.
-  
-2. **Liquidation Risk**:
-  - When users create a trove in Liquity, they must maintain a collateral ratio of at least 110%. Troves that fall below this threshold are subject to liquidation.
-
-**Process**:
-  1. **Stability Pool Usage**: The system uses funds from the Stability Pool to cancel the debt of undercollateralized troves.
-  2. **Redistribution Mechanism**: If the Stability Pool lacks sufficient funds, a redistribution mechanism is activated, spreading the debt and collateral of liquidated troves among all trove holders.
-
-**Penalty**:
-Users facing liquidation may incur a penalty of up to 10%, which incentivizes them to maintain a safe collateral ratio.
-
-
-3. **Redemption Risk**:
-  - Liquity allows direct redemption of LUSD stablecoins for the underlying collateral, Ether. This process carries certain risks for borrowers.
-
-**Process**:
-  1. **Debt Cancellation**: Redeeming LUSD cancels debt from the riskiest trove in the system, i.e., the trove with the lowest collateral ratio.
-  2. **Collateral Transfer**: The redeemer receives a corresponding amount of Ether from the trove used for debt cancellation.
-
-**Impact**:
-Redemptions reduce the borrower's leverage and increase the overall collateral ratio of the system. While there's no additional penalty for borrowers, redemptions can lead to collateral loss and deleveraging of positions.
-
-
-### Vigilant Surveillance:
-
-In the realm of Nimbora, your trove's collateralization ratio is closely monitored by the protocol itself. While you can't directly alter this ratio, rest assured that Nimbora diligently adjusts the risk levels to safeguard against potential liquidations or redemptions.
+:::tip
+[Here](https://medium.com/@Nimbora/unlocking-quick-lusd-minting-a-step-by-step-guide-for-nimbora-users-1dc0b876a122) you can find a step-by-step guide for borrowing LUSD.
+:::
