@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknimbora_yield_dex=self.webpackChunknimbora_yield_dex||[]).push([[304],{3564:(e,r,s)=>{s.r(r),s.d(r,{default:()=>l});s(1504);var c=s(5456),a=s(5756),d=s(5864),n=s(5464),u=s(9012),i=s(7624);function l(e){return(0,i.jsx)(a.cr,{className:(0,c.c)(d.W.wrapper.docsPages),children:(0,i.jsx)(u.c,{children:(0,n.k)(e.route.routes)})})}}}]);
