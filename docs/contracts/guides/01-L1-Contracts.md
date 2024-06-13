@@ -49,7 +49,7 @@ To run deployment scripts or any other custom scripts, use:
 yarn hardhat run <script-path> --network <chosen-network>
 ```
 
-Scripts are located in the scipts folder.
+Scripts are located in the scripts folder.
 
 ## Deployment with Hardhat-Deploy
 
@@ -79,7 +79,7 @@ PRIVATE_KEY: Your Ethereum private key, used for transactions and contract deplo
 
 ## Building a new strategy
 
-You can build a new strategy building contract inheriting from StrategyBase.sol, you'll need to override virtual methods and add potential additional logic related to the strategy you want to build. 2 built strategies are proposed as exemples savingDai.sol and uniswapV3.sol
+You can build a new strategy building contract inheriting from StrategyBase.sol, you'll need to override virtual methods and add potential additional logic related to the strategy you want to build. 2 built strategies are proposed as examples savingDai.sol and uniswapV3.sol
 
 ## Deploying pooling manager and adding new strategies
 
@@ -87,7 +87,7 @@ You can build a new strategy building contract inheriting from StrategyBase.sol,
 
 2. (only for goerli): deploy mock contract for your strategy if it is not deployed on this network like it's done with saving dai(cc deploy/savingDai.ts). Or setup the environment of the strategy if it exists like uniswapV3 where you need to deploy a new pool and add liquidity  (cc scripts/deployUniPool.ts and scripts/initAndAddLiq.ts)
 
-3. Add the required addresses in the config.ts for your strategy (uniV3Router for exemple)
+3. Add the required addresses in the config.ts for your strategy (uniV3Router for example)
 
 4. Deploy the strategy using hardhat-deploy
 
