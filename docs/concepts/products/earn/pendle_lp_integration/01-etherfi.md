@@ -46,6 +46,9 @@ Your yield comes from several sources -  **10% pETH base yield** + **$STRK** 
 
 ![Untitled](../../../../../static/content/strategy_npeeth/npeeth_yieldbreakdown.png) 
 
+1. **Base**: Represents default strategy yield.
+2. **Boost**: Represents incentives provided by the Nimbora team using the [Starknet Catalyst grant](https://medium.com/@Nimbora/nimbora-and-starknet-catalyst-program-14cc7f2f1ab5).
+3. **Incentives**: Represents incentives provided by the Starknet Foundation as a part of the [DeFi Spring initiative](https://medium.com/@Nimbora/nimbora-joins-starknet-defi-spring-d7921e56e2e4).
 
 With this strategy you are also earning points for 3 protocols: 1x Nimbora, 3x EtherFi, 1x EigenLayer. 
 ![Untitled](../../../../../static/content/strategy_npeeth/npeeth_points_variety.png) 

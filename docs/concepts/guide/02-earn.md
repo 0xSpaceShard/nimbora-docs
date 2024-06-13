@@ -20,9 +20,10 @@ There are several yield strategies with different underlying tokens and APR (Ann
 
 ![alt](https://i.ibb.co/P4Vbc55/Screenshot-556.png)
 
-1. **Base**: Represents default strategy yield. 
-2. **Boost**: Represents incentives added by the Nimbora team to enable higher APR. 
-3. **Incentives**: Represents incentives provided by the Starknet Foundation.
+1. **Base**: Represents default strategy yield.
+2. **Boost**: Represents incentives provided by the Nimbora team using the [Starknet Catalyst grant](https://medium.com/@Nimbora/nimbora-and-starknet-catalyst-program-14cc7f2f1ab5).
+3. **Incentives**: Represents incentives provided by the Starknet Foundation as a part of the [DeFi Spring initiative](https://medium.com/@Nimbora/nimbora-joins-starknet-defi-spring-d7921e56e2e4).
+
 
 **Underlying protocols**. Underlying protocols linked to the strategy are displayed, you can choose the one you are the most comfortable with. 
 
