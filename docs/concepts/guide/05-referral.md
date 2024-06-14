@@ -16,7 +16,8 @@ Additionally, special boosted referral links can offer higher percentage rewards
 
 ### How to find a referral link
 
-- Join our Discord community, and find some in the [Invite section](https://discord.com/channels/1157580917917892640/1242045588384514048)
+You can [join our Discord](https://discord.gg/nimbora) and ask for an invite in the #invites channel.
+[![Nimbora Discord](../../../static/content/first_steps/Discord.png)](https://discord.gg/nimbora)
 
 - Explore partner protocols' social media channels, where referral links are often shared with additional boosts. Here are some examples of our partners: Spark, OnlyDust, Kakarot, StaknetQuest, zkLend, Herodotus, Carmine, Pragma.
 

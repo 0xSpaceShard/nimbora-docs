@@ -6,7 +6,7 @@ sidebar_position: 4
 
 # A Word of Caution: Stay Vigilant
 
-*🐧⚠️ Please remain vigilant against potential scams and rely solely on our official channels for accurate information:
+🐧⚠️ Please remain vigilant against potential scams and rely solely on our official channels for accurate information:
 
 - 🌐 [Website](https://www.nimbora.io/)
 - 👨‍💻 [DApp](https://app.nimbora.io/)
@@ -20,4 +20,4 @@ sidebar_position: 4
 ## **Need Help?**
 
 For technical support or questions about Starknet integration, join our [Discord](https://discord.gg/nimbora) community.
-[![Nimbora Discord](https://i.ibb.co/23npZRk/Nimbora-Discord.png)](https://discord.gg/nimbora) -->
+[![Nimbora Discord](../../static/content/first_steps/Discord.png)](https://discord.gg/nimbora) 

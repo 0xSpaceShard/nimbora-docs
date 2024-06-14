@@ -8,7 +8,7 @@ sidebar_position: 3
 
 There are 2 cards (troves) with 2 different TCR (total collateral ratio). The CR is not fixed, as its value is pegged to the ETH price. That is why the screenshot below might not match the current numbers you will see once you open the troves. 
 
-![Untitled](https://i.imgur.com/ERJ3ast.png)
+![Untitled](/content/borrow.png)
 
 **TCR is the percentage of assets you need to lock up as collateral when borrowing**. If you want to borrow $100 and the TCR is 676%, you must provide $676 worth of assets as collateral.
 

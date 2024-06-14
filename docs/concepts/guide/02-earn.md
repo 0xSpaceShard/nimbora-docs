@@ -18,7 +18,7 @@ There are several yield strategies with different underlying tokens and APR (Ann
 
 **Here's an APR breakdown of the nsDAI strategy**
 
-![alt](https://i.ibb.co/P4Vbc55/Screenshot-556.png)
+![alt](/content/strategy_nsdai/apr_breakdown.png)
 
 1. **Base**: Represents default strategy yield.
 2. **Boost**: Represents incentives provided by the Nimbora team using the [Starknet Catalyst grant](https://medium.com/@Nimbora/nimbora-and-starknet-catalyst-program-14cc7f2f1ab5).
