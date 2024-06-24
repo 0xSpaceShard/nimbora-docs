@@ -7,7 +7,7 @@ sidebar_class_name: hidden
 
 **Pendle LP strategy, earn with ETH** 
 
-Liquid restaking on Ethereum repurposes staked ether to validate external systems like rollups or oracles, enhancing the ecosystem's security. Liquid Restaking Tokens (LRTs) act as a buffer against slashing events and offer higher yields than native staking. They simplify participation, manage risks, and conserve gas by batch-collecting rewards. This innovation democratizes staking, challenging established leaders, and offers growth potential, albeit with capped deposits in some systems. Overall, it diversifies Ethereum's staking landscape while bolstering its security and efficiency.
+Liquid restaking on Ethereum repurposes staked ether to validate external systems like rollups or oracles, enhancing the ecosystem's security. Liquid Restaking Tokens (LRTs) act as a buffer against slashing events and offer higher yields than native staking. They simplify participation, manage risks, and conserve gas by batch-collecting rewards. This innovation democratizes staking, challenging established leaders, and offers growth potential, albeit with capped deposits in some systems. 
 
 weETH is the wrapped version of eETH, the etherfi native token, which serves as a liquid staking derivative token. eETH streamlines the staking process by enabling automatic restaking and offering various benefits to users. This includes rewards from both EtherFi and EigenLayer, simplifying the staking experience and providing additional incentives for participation in the DeFi ecosystem. 
 
@@ -28,21 +28,22 @@ Enter the amount of ETH you want to deposit, or click on the small buttons below
 
 ![Untitled](../../../../../static/content/strategy_npeeth/npeeth_home.png)
 
-When you've selected the token amount to deposit, click on "Deposit" button and follow the prompts on your wallet ([Braavos](https://braavos.app/) or [ArgentX](https://argent.xyz/)) to complete the transaction.
-
+When you've selected the token amount to deposit, click on "Deposit" button.
 ![Untitled](../../../../../static/content/strategy_npeeth/npeeth_deposit.png)
 
-Once the transaction has been accepted on the network, a popup will appear at the bottom left of the screen to let you know.
+Follow the prompts on your wallet ([Braavos](https://braavos.app/) or [ArgentX](https://argent.xyz/)) to complete the transaction.
 
+![Untitled](../../../../../static/content/strategy_npeeth/npeeth_wallet.png)
+
+Once the transaction has been accepted on the network, a popup will appear at the bottom left of the screen to let you know.
 ![Untitled](../../../../../static/content/strategy_npeeth/npeeth_confirmation.png)
 
 As a result, you will receive npeETH, which is Liquid Restaking Token (LRT). And that's it, you should be able to see your balance of Nimbora Yield Token in the portfolio section or directly into your wallet browser. 
 
-![Untitled](../../../../../static/content/strategy_npeeth/npeeth_wallet.png)
 
 ## Your Earning Starts Immediately!
 
-Your yield comes from several sources -  **10% pETH base yield** + **$STRK** **incentives** + **Nimbora** **boost.**
+Your yield comes from several sources -  **10% npeETH base yield** + **$STRK** **incentives** + **Nimbora** **boost.**
 
 ![Untitled](../../../../../static/content/strategy_npeeth/npeeth_yieldbreakdown.png) 
 
@@ -55,7 +56,7 @@ With this strategy you are also earning points for 3 protocols: 1x Nimbora, 3x E
 
 Remember, holding Nimbora yield-bearing tokens gets points based on your balance. The more and longer you hold, the more points you accumulate. 
 
-You can always check your leaderboard position and Nimbora points breakdown by clicking on ‘Points’ section in the upper right corner at app.nimbora.io
+You can always check your leaderboard position and Nimbora points breakdown by clicking on ‘Points’ section in the upper left corner at app.nimbora.io
 
 ![Untitled](../../../../../static/content/strategy_npeeth/npeeth_points.png)
 
