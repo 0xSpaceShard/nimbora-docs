@@ -22,7 +22,7 @@ There are several yield strategies with different underlying tokens and APR (Ann
 
 1. **Base**: Represents default strategy yield that auto-compounds daily. 
 2. **Boost**: Represents incentives provided by the Nimbora team using the [Starknet Catalyst grant](https://medium.com/@Nimbora/nimbora-and-starknet-catalyst-program-14cc7f2f1ab5) that are claimable every two weeks.
-3. **Incentives**: Represents incentives provided by the Starknet Foundation as a part of the [DeFi Spring initiative](https://medium.com/@Nimbora/nimbora-joins-starknet-defi-spring-d7921e56e2e4) that are claimable every two weeks.
+3. **Incentives**: Represents incentives provided by the Starknet Foundation as a part of the [DeFi Spring 2.0](https://medium.com/@Nimbora/introducing-defi-spring-2-0-bigger-bolder-better-364bb96b02d6) that are claimable every two weeks.
 
 
 **Underlying protocols**. Underlying protocols linked to the strategy are displayed, you can choose the one you are the most comfortable with. 
@@ -61,7 +61,7 @@ And that's it, you should be able to see your balance of Nimbora yield token int
 
 ## How to request a withdrawal
 
-Withdrawal are not synchronous such as deposits they take an average of 1 day to be processed, a fast withdrawal option should arrive later on. 
+Withdrawal are not synchronous such as deposits.  Withdrawals take between 12 and 48 hours to be processed. A fast withdrawal option should arrive later on. 
 
 
 First, you need to decide on the amount you want to withdraw. This could be all or a portion of your assets.
