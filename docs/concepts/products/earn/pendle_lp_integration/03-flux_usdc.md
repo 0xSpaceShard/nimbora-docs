@@ -42,7 +42,7 @@ Your yield comes from several sources -  **npfUSDC base yield** + **$STRK** 
 
 1. **Base**: Represents default strategy yield that auto-compounds daily. 
 2. **Boost**: Represents incentives provided by the Nimbora team using the [Starknet Catalyst grant](https://medium.com/@Nimbora/nimbora-and-starknet-catalyst-program-14cc7f2f1ab5) that are claimable every two weeks.
-3. **Incentives**: Represents incentives provided by the Starknet Foundation as a part of the [DeFi Spring initiative](https://medium.com/@Nimbora/nimbora-joins-starknet-defi-spring-d7921e56e2e4) that are claimable every two weeks.
+3. **Incentives**: Represents incentives provided by the Starknet Foundation as a part of the [DeFi Spring 2.0](https://medium.com/@Nimbora/introducing-defi-spring-2-0-bigger-bolder-better-364bb96b02d6) that are claimable every two weeks.
 
 With this strategy you are also earning Nimbora points. 
 Remember, holding Nimbora yield-bearing tokens gets points based on your balance. The more and longer you hold, the more points you accumulate.
@@ -54,7 +54,7 @@ You can always check your leaderboard position and Nimbora points breakdown by c
 
 ## How to Withdraw[](https://docs.nimbora.io/docs/concepts/products/earn/pendle_lp_integration/npfUSDC#how-to-withdraw)
 
-Withdrawal are not synchronous such as deposits they take an average of 1 day to be processed, a fast withdrawal option should arrive later on.
+Withdrawal are not synchronous such as deposits.  Withdrawals take between 12 and 48 hours to be processed. A fast withdrawal option should arrive later on. 
 
 First, you need to decide on the amount you want to withdraw. This could be all or a portion of your assets.
 
