@@ -52,6 +52,7 @@ Your yield comes from several sources -  **nppETH base yield** + **$STRK** *
 3. **Incentives**: Represents incentives provided by the Starknet Foundation as a part of the [DeFi Spring 2.0](https://medium.com/@Nimbora/introducing-defi-spring-2-0-bigger-bolder-better-364bb96b02d6) that are claimable every two weeks.
 
 With this strategy you are also earning points for 3 protocols: 1x Nimbora, 1x Puffer, 1x EigenLayer.
+The points are harvested by our L1 smart contract. Users will have an option of voting on whether these points get sold or delegated to an EVM address. 
 
 ![Untitled](../../../../../static/content/stategy_nppeth/main_points.png)
 
