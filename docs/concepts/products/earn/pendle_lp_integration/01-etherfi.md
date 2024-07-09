@@ -80,7 +80,7 @@ Once the transaction has been accepted on the network, a popup will appear at th
 
 ![alt](../../../../../static/content/strategy_npeeth/npeeth_withdraw_confirm.png)
 
-You can consult all of your recent tarnsactions in the wallet section. Your transaction should be here. 
+You can consult all of your recent transactions in the wallet section. Your transaction should be here. 
 
 ![alt](../../../../../static/content/strategy_npeeth/npeeth_withdraw_recent.png)
 

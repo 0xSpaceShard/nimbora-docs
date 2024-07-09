@@ -70,7 +70,7 @@ Once the transaction has been accepted on the network, a popup will appear at th
 ![Untitled](../../../../../static/content/strategy_npfusdc/withdraw_accepted.png)
 
 
-You can consult all of your recent tarnsactions in the wallet section. Your transaction should be here. 
+You can consult all of your recent transactions in the wallet section. Your transaction should be here. 
 
 
 ![Untitled](../../../../../static/content/strategy_npfusdc/recent.png)

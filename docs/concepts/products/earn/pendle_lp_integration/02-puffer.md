@@ -79,7 +79,7 @@ Once you've made up your mind, locate and click on the 'withdraw' button and fol
 Once the transaction has been accepted on the network, a popup will appear at the bottom right of the screen to let you know.
 
 
-You can consult all of your recent tarnsactions in the wallet section. Your transaction should be here. 
+You can consult all of your recent transactions in the wallet section. Your transaction should be here. 
 
 
 ![Untitled](../../../../../static/content/stategy_nppeth/recent.png)
