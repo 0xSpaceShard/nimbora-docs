@@ -5,71 +5,33 @@ sidebar_position: 4
 sidebar_class_name: hidden
 ---
 
-# **Introducing the sSTRK Vault**
+# **Introducing the Savings STRK (sSTRK) Vault**
 ![Nimbora sSTRK vault](../../../../static/content/stategy_sstrk/sstrk%20vault.png)
 
 ## **What is sSTRK?**
 ![What is STRK?](../../../../static/content/stategy_sstrk/what%20is%20strk.png)
 
 
-
-**Saving STRK Vault is an advanced yield aggregator pool designed to provide the best possible returns.** When users deposit their STRK into the Saving STRK vault, the system actively employs advanced DeFi strategies to generate potential profits over time, optimizing their earning potential through automated and strategic investments.
-
-1. **Automated Yield Generation**: Vaults optimize yield farming by shifting capital between different DeFi protocols.
-2. **Passive Investment Strategy**: Vaults automate complex processes, allowing users without deep DeFi knowledge to earn returns.
-3. **Dynamic Rebalancing**: The system continually adjusts to maximize profits as market conditions change.
-4. **Modular Architecture**: Simplifies strategy creation and maintenance, encouraging innovation and reducing error rates.
-5. **ERC-4626 Compatibility**: Ensures easy integration with other DeFi projects.
-6. **Share Locking**: Prevent Sandwich attack on the vault when claiming $STRK coming from DeFi Spring.
-
-Saving STRK Vaults represent a sophisticated yet user-friendly way to engage in yield farming, bringing both efficiency and accessibility to DeFi investors.
-
-![alt](/content/strategy_sstrk/overview.png)
-
-
-This strategy combines multiple steps into multiple protocol: 
-- underling is deposited in the main vault.
-- The amount deposited is splitted into the different strategy respecting the debt allocation provided by the debt manager.
-- Profits generated are periodically compounded and debt is reallocated dynamically following market conditions
-- Rewards from defi spring is automatically claimed and vested over a week into the strategy
-
-Tokenized strategy are running unique strategies that could come from: 
-- Pure Lending
-- DeFi Pooling
-- Liquidity provision in meta-stable pools
-- Liquidity provision in option pools
-- Staking
-
-### Understanding Risks Associated with Savings STRK
-
-1. **Smart Contract Risk**:
-    - Savings STRK vault aggregator smart contracts risks.
-    - Underlying tokenized strategy Component risks.
-2. **Interaction with Third-party Protocols**:
-    - Tokenized strategies are interacting with third party protcol such as AMM, lending borrowing or else... Looks at active strategies used by the main vault for more details.
-
-    
-
 sSTRK stands for “Savings STRK,” similar to Spark’s sDAI (Savings DAI). 
 
-The sSTRK vault is designed specifically for the Starknet ecosystem, providing a secure and efficient way to maximize the value of your STRK holdings. We’re launching the genesis vault, and it will serve as the foundation for more advanced strategies in the future.
+The sSTRK vault is designed specifically for the Starknet ecosystem, providing a secure and efficient way to maximize the value of your STRK holdings. 
+
 
 ### **sSTRK Vault - How it Works**
 ![How it Works](../../../../static/content/stategy_sstrk/how%20it%20works.png)
 
 
-The sSTRK vault is the starting point for our innovative yield strategies. 
+Savings STRK Vault is an advanced yield aggregator pool that allows users to deposit STRK and get the best possible returns.
 
 The sSTRK vault comes with full modular contract and will have enhanced functionalities with each release: 
 
 ### Stage 0 - The Genesis
 ![The Genesis](../../../../static/content/stategy_sstrk/the%20genesis.png)
 
-
-By depositing your STRK tokens into the vault, you will accumulate Nimbora points at 2x rate and grow your position within the Nimbora ecosystem.
-
+We’re launching the genesis vault, and it will serve as the foundation for more advanced strategies in the future.
 ![sSTRK Vault](../../../../static/content/stategy_sstrk/vault.png)
 
+By depositing your STRK tokens into the vault, you will accumulate Nimbora points at 2x rate and grow your position within the Nimbora ecosystem.
 
 ### Stage 1 - Simple Yield Strategy
 ![Simple Yield Strategy](../../../../static/content/stategy_sstrk/simple%20yield%20strategy.png)
@@ -82,11 +44,24 @@ We are the recipient of the [Starknet Catalyst grant](https://medium.com/@Nimbor
 ### Stage 2 - Multiple Indexed Strategies
 ![Multiple Indexed Startegies](../../../../static/content/stategy_sstrk/multiple%20indexed%20strategies.png)
 
+When users deposit their STRK into the Savings STRK vault, the system actively employs advanced DeFi strategies to generate potential profits over time, optimizing their earning potential through automated and strategic investments.
 
-With our sSTRK vault, you are earning 2x [Nimbora points](https://docs.nimbora.io/docs/concepts/guide/points).  
 
-![sSTRK Vault](../../../../static/content/stategy_sstrk/vault.png)
+![alt](/content/strategy_sstrk/overview.png)
 
+
+This strategy combines multiple steps into multiple protocol: 
+- Underling is deposited in the main vault.
+- The amount deposited is split into the different strategies respecting the debt allocation provided by the debt manager.
+- Profits generated are periodically compounded and debt is reallocated dynamically following market conditions
+- Rewards from [DeFi Spring 2.0](https://medium.com/@Nimbora/introducing-defi-spring-2-0-bigger-bolder-better-364bb96b02d6) are automatically claimed and vested over a week into the strategy
+
+The unique strategies could come from: 
+- Pure Lending
+- DeFi Pooling
+- Liquidity provision in meta-stable pools
+- Liquidity provision in option pools
+- Staking
 
 We plan to bring additional utility to the sSTRK vault by enabling users to stake, restake and borrow assets against their sSTRK and interact with our live strategies such as the [nsDAI](https://docs.nimbora.io/docs/concepts/products/earn/nsDAI) or [npeETH](https://docs.nimbora.io/docs/concepts/products/earn/pendle_lp_integration/npeETH) strategy.
 
@@ -99,13 +74,15 @@ Our [npeETH strategy](https://docs.nimbora.io/docs/concepts/products/earn/pendle
 
 In this scenario, you would be earning yields from both the sSTRK vault and npeETH strategy, as well as 3x Etherfi points, 3x Nimbora points and 1x EigenLayer points.
 
+
 ## TL;DR of the Upgraded sSTRK Vault
 
-1.	**Enhanced Yield**: By leveraging your sSTRK to borrow ETH and invest in high-yield strategies, you can significantly increase your returns.
-
-2.	**Extra Points**: Farm additional points provided by our strategies.
-
-3.	**Seamless Integration**: Enjoy the simplicity we offer. We handle upgrades in the background, manage multiple strategies, and ensure your STRK is always working to its fullest potential.
+1. **Automated Yield Generation**: Vaults optimize yield farming by shifting capital between different DeFi protocols.
+2. **Passive Investment Strategy**: Vaults automate complex processes, allowing users without deep DeFi knowledge to earn returns.
+3. **Dynamic Rebalancing**: The system continually adjusts to maximize profits as market conditions change.
+4. **Modular Architecture**: Simplifies strategy creation and maintenance, encouraging innovation and reducing error rates.
+5. **ERC-4626 Compatibility**: Ensures easy integration with other DeFi projects.
+6. **Share Locking**: Prevent Sandwich attack on the vault when claiming $STRK coming from DeFi Spring.
 
 ## Get Started!
 
@@ -134,9 +111,6 @@ As a result, you will receive sSTRK, which is Liquid Restaking Token (LRT). And 
 
 ## How to request a withdrawal
 
-Withdrawal are not synchronous such as deposits.  Withdrawals take between 12 and 48 hours to be processed. A fast withdrawal option should arrive later on. 
-
-
 First, you need to decide on the amount you want to withdraw. This could be all or a portion of your assets.
 
 ![sSTRK Withdraw ](../../../../static/content/stategy_sstrk/withdraw.png)
@@ -150,11 +124,18 @@ Once the transaction has been accepted on the network, a popup will appear at th
 
 ![sSTRK Withdraw  Approve](../../../../static/content/stategy_sstrk/withdraw_approve.png)
 
-You can consult all of your recent tarnsactions in the wallet section. Your transaction should be here. 
+You can consult all of your recent transactions in the wallet section. Your transaction should be here. 
 
 ![sSTRK Withdraw ](../../../../static/content/stategy_sstrk/recent.png)
 
-And that's it, you should see your pending request in the navbar.
+### Understanding Risks Associated with Savings STRK
+
+1. **Smart Contract Risk**:
+    - Savings STRK vault aggregator smart contracts risks.
+    - Underlying tokenized strategy Component risks.
+2. **Interaction with Third-party Protocols**:
+    - Tokenized strategies are interacting with third party protcol such as AMM, lending borrowing or else... Looks at active strategies used by the main vault for more details.
+
 
 ### Stay Tuned for Upgrades
 

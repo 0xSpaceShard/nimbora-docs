@@ -81,6 +81,7 @@ Once the transaction has been accepted on the network, a popup will appear at th
 
 ![alt](/content/strategy_nsdai/strategy_nsdai_withdraw_confirm.png)
 
+You can consult all of your recent transactions in the wallet section. Your transaction should be here. 
 
 ![alt](/content/strategy_nsdai/strategy_nsdai_withdraw_recent.png)
 
