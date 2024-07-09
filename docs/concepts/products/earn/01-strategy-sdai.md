@@ -44,7 +44,7 @@ Once the transaction has been accepted on the network, a popup will appear at th
 ![alt](/content/strategy_nsdai/strategy_nsdai_deposit_confirm.png)
 
 
-You can consult all of your recent deposits in the wallet section, your transaction should be here. 
+You can consult all of your recent tarnsactions in the wallet section. Your transaction should be here. 
 
 ![alt](/content/strategy_nsdai/strategy_nsdai_deposit_recent.png)
 
@@ -81,7 +81,6 @@ Once the transaction has been accepted on the network, a popup will appear at th
 
 ![alt](/content/strategy_nsdai/strategy_nsdai_withdraw_confirm.png)
 
-You can consult all of your recent deposits in the wallet section, your transaction should be here. 
 
 ![alt](/content/strategy_nsdai/strategy_nsdai_withdraw_recent.png)
 
@@ -167,3 +166,33 @@ Nimbora takes over the task of processing this request. This involves preparing 
     - Pursuing additional returns through RWAs may increase centralization within MakerDAO. 
     - Onboarding RWAs reduces transparency compared to on-chain crypto assets, posing transparency  risks.
 
+### Stay Tuned for Upgrades
+
+Keep an eye on our updates as we roll out new features and advanced strategies to enhance your earning potential.
+
+**Join our [Discord](http://discord.gg/nimbora) for alpha and early notifications 🚀**
+
+[![Nimbora Discord](../../../../static/content/stategy_sstrk/Discord.png)](https://discord.gg/nimbora) 
+
+
+Stay tuned for updates as we continue to bring more 1-click yield strategies to life. Follow [Nimbora on X](https://x.com/Nimbora_) (Twitter) or [Medium](https://medium.com/@Nimbora).
+
+# **About Nimbora**
+
+Nimbora is a Starknet-based omnichain 1-click yield strategies platform that enables users to engage with Layer 1 protocols at a fraction of the cost. Discover the best of Ethereum protocols and optimize your DeFi strategies with Nimbora.
+
+🐧🌐 [Website](https://www.nimbora.io/)
+
+🐧👨‍💻 [DApp](https://app.nimbora.io/)
+
+🐧🐦 [Twitter](https://twitter.com/Nimbora_)
+
+🐧👋 [Discord](http://discord.gg/nimbora)
+
+🐧💼 [LinkedIn](https://www.linkedin.com/company/nimbora/)
+
+🐧📖 [Medium](https://medium.com/@Nimbora)
+
+🐧🗞️ [Docs](https://docs.nimbora.io/)
+
+🐧🛡 [Audit](https://github.com/0xSpaceShard/nimbora_audit_report_yield_dex/blob/main/Nimbora%20Audit%20Report.pdf)
