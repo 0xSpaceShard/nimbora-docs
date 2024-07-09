@@ -40,9 +40,6 @@ Tokenized strategy are running unique strategies that could come from:
 - Liquidity provision in option pools
 - Staking
 
-The current vault is made of the following: 
-- No strategies implemented yet.
-
 ### Understanding Risks Associated with Savings STRK
 
 1. **Smart Contract Risk**:
