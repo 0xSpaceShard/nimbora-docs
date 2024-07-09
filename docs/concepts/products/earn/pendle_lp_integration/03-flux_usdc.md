@@ -1,7 +1,7 @@
 ---
 id: npfUSDC 
 title: npfUSDC Strategy
-sidebar_position: 2
+sidebar_position: 3
 sidebar_class_name: hidden
 ---
 
@@ -14,7 +14,7 @@ FUSDC is an interest-bearing token received when depositing USDC into Flux Finan
 
 Visit Nimbora dApp via invite link and connect your Starknet wallet ([Braavos](https://braavos.app/) or [ArgentX](https://argent.xyz/)).
 
-Enter the amount of ETH you want to deposit, or click on the small buttons below the box (25%, 50%, 75%, 100%) to set a desired percentage of the balance you want to deposit.
+Enter the amount of USDC you want to deposit, or click on the small buttons below the box (25%, 50%, 75%, 100%) to set a desired percentage of the balance you want to deposit.
 
 ![Untitled](../../../../../static/content/strategy_npfusdc/main.png)
 
@@ -30,7 +30,7 @@ Once the transaction has been accepted on the network, a popup will appear at th
 ![Untitled](../../../../../static/content/strategy_npfusdc/deposit_accepted.png)
 
 
-As a result, you will receive nppETH, which is Liquid Restaking Token (LRT). And that's it, you should be able to see your balance of Nimbora Yield Token in the portfolio section or directly into your wallet browser.
+As a result, you will receive npfUSDC, which is Liquid Restaking Token (LRT). And that's it, you should be able to see your balance of Nimbora Yield Token in the portfolio section or directly into your wallet browser.
 
 
 ## Your Earning Starts Immediately![](https://docs.nimbora.io/docs/concepts/products/earn/pendle_lp_integration/npfUSDC#your-earning-starts-immediately)
