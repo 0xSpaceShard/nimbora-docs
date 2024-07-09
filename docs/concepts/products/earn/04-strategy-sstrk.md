@@ -52,7 +52,7 @@ When users deposit their STRK into the Savings STRK vault, the system actively e
 
 This strategy combines multiple steps into multiple protocol: 
 - Underling is deposited in the main vault.
-- The amount deposited is splitted into the different strategy respecting the debt allocation provided by the debt manager.
+- The amount deposited is split into the different strategies respecting the debt allocation provided by the debt manager.
 - Profits generated are periodically compounded and debt is reallocated dynamically following market conditions
 - Rewards from [DeFi Spring 2.0](https://medium.com/@Nimbora/introducing-defi-spring-2-0-bigger-bolder-better-364bb96b02d6) are automatically claimed and vested over a week into the strategy
 
