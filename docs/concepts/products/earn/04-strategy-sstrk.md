@@ -103,7 +103,7 @@ Follow the prompts on your wallet ([Braavos](https://braavos.app/) or [ArgentX
 
 
 
-Once the transaction has been accepted on the network, a popup will appear at the bottom left of the screen to let you know.
+Once the transaction has been accepted on the network, a popup will appear at the bottom right of the screen to let you know.
 ![sSTRK Deposit Approve ](../../../../static/content/stategy_sstrk/deposit_approved.png)
 
 
