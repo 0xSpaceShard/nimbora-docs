@@ -8,6 +8,10 @@ sidebar_class_name: hidden
 # **Introducing the Savings STRK (sSTRK) Vault**
 ![Nimbora sSTRK vault](../../../../static/content/stategy_sstrk/sstrk%20vault.png)
 
+You've asked, and we've delivered!
+
+We're thrilled to announce the launch of the $sSTRK Vault, designed to maximize returns on $STRK for the entire Starknet ecosystem! 🐺
+
 ## **What is sSTRK?**
 ![What is STRK?](../../../../static/content/stategy_sstrk/what%20is%20strk.png)
 
@@ -31,17 +35,15 @@ The sSTRK vault comes with full modular contract and will have enhanced function
 We’re launching the genesis vault, and it will serve as the foundation for more advanced strategies in the future.
 ![sSTRK Vault](../../../../static/content/stategy_sstrk/vault.png)
 
-By depositing your STRK tokens into the vault, you will accumulate Nimbora points at 2x rate and grow your position within the Nimbora ecosystem.
-
-### Stage 1 - Simple Yield Strategy
-![Simple Yield Strategy](../../../../static/content/stategy_sstrk/simple%20yield%20strategy.png)
+By depositing your STRK tokens into the vault, you will earn yield and accumulate Nimbora points at 2x rate and grow your position within the Nimbora ecosystem. 
 
 
 We will funnel a part of the incentives to the sSTRK vault to enable yield for our users. This ensures that you continue to benefit from holding sSTRK while earning steady returns.
 
 We are the recipient of the [Starknet Catalyst grant](https://medium.com/@Nimbora/nimbora-and-starknet-catalyst-program-14cc7f2f1ab5) and some of our vaults are receiving incentives from the Starknet Foundation as a part of the [DeFi Spring 2.0](https://medium.com/@Nimbora/introducing-defi-spring-2-0-bigger-bolder-better-364bb96b02d6)
 
-### Stage 2 - Multiple Indexed Strategies
+
+### Stage 1 - Multiple Indexed Strategies
 ![Multiple Indexed Startegies](../../../../static/content/stategy_sstrk/multiple%20indexed%20strategies.png)
 
 When users deposit their STRK into the Savings STRK vault, the system actively employs advanced DeFi strategies to generate potential profits over time, optimizing their earning potential through automated and strategic investments.
@@ -50,8 +52,8 @@ When users deposit their STRK into the Savings STRK vault, the system actively e
 ![alt](/content/strategy_sstrk/overview.png)
 
 
-This strategy combines multiple steps into multiple protocol: 
-- Underling is deposited in the main vault.
+This strategy combines multiple steps: 
+- Underlaying asset is deposited in the main vault.
 - The amount deposited is split into the different strategies respecting the debt allocation provided by the debt manager.
 - Profits generated are periodically compounded and debt is reallocated dynamically following market conditions
 - Rewards from [DeFi Spring 2.0](https://medium.com/@Nimbora/introducing-defi-spring-2-0-bigger-bolder-better-364bb96b02d6) are automatically claimed and vested over a week into the strategy
@@ -103,7 +105,7 @@ Follow the prompts on your wallet ([Braavos](https://braavos.app/) or [ArgentX
 
 
 
-Once the transaction has been accepted on the network, a popup will appear at the bottom left of the screen to let you know.
+Once the transaction has been accepted on the network, a popup will appear at the bottom right of the screen to let you know.
 ![sSTRK Deposit Approve ](../../../../static/content/stategy_sstrk/deposit_approved.png)
 
 
