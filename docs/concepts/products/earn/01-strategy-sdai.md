@@ -43,11 +43,6 @@ Once the transaction has been accepted on the network, a popup will appear at th
 
 ![alt](/content/strategy_nsdai/strategy_nsdai_deposit_confirm.png)
 
-
-You can consult all of your recent tarnsactions in the wallet section. Your transaction should be here. 
-
-![alt](/content/strategy_nsdai/strategy_nsdai_deposit_recent.png)
-
 And that's it, you should be able to see your balance of Nimbora yield token into the portfolio section or directly into your wallet browser. 
 
 ## Your Earning Starts Immediately!
@@ -81,13 +76,13 @@ Once the transaction has been accepted on the network, a popup will appear at th
 
 ![alt](/content/strategy_nsdai/strategy_nsdai_withdraw_confirm.png)
 
-You can consult all of your recent transactions in the wallet section. Your transaction should be here. 
-
-![alt](/content/strategy_nsdai/strategy_nsdai_withdraw_recent.png)
-
 And that's it, you should see your pending request in the navbar.
 
 ![alt](/content/strategy_nsdai/strategy_nsdai_withdraw_pending.png)
+
+You can consult all of your recent transactions in the wallet section. Your transaction should be here. 
+
+![alt](/content/strategy_nsdai/strategy_nsdai_withdraw_recent.png)
 
 Nimbora takes over the task of processing this request. This involves preparing your assets in order to be transferred back to your wallet, a process that is handled entirely behind the scenes to ensure a smooth and efficient operation. Once the request is ready to be claimed, Nimbora relayer will handle it and send it directly into your wallet. 
 
