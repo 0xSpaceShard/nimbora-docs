@@ -56,18 +56,18 @@ Your yield comes from several sources -  **nstUSD  base yield** + **$STRK** *
 ## How to request a withdrawal
 You can choose between two withdrawal options - Instant and Normal.
 
+![alt](../../../../static/content/strategy_nstusd/withdraw_instant.png)
+
 Instant withdrawals factor in the price impact and set slippage. 
 
-![alt](../../../../static/content/strategy_nstusd/withdraw_instant.png)
+![alt](../../../../static/content/strategy_nstusd/withdraw.png)
 
 
 Normal withdrawals are not synchronous such as deposits and take between 12 and 48 hours to be processed.
 
 Once you have selected the withdraw tab, you will need to decide on the amount you want to withdraw. This could be all or a portion of your assets.
 
-![alt](../../../../static/content/strategy_nstusd/withdraw.png)
-
-Once you've made up your mind, locate and click on the 'withdraw' button and follow the prompts on your wallet (Argent or Braavos) to complete the transaction.
+Click on the 'withdraw' button and follow the prompts on your wallet ([Braavos](https://braavos.app/) or [ArgentX](https://argent.xyz/)) to complete the transaction.
 
 ![alt](../../../../static/content/strategy_nstusd/withdraw_confirm.png)
 

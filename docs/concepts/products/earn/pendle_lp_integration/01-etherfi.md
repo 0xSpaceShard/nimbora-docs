@@ -77,7 +77,7 @@ Normal withdrawals are not synchronous such as deposits and take between 12 and 
 
 Once you have selected the withdraw tab, you will need to decide on the amount you want to withdraw. This could be all or a portion of your assets.
 
-Once you've made up your mind, locate and click on the 'withdraw' button and follow the prompts on your wallet ([Braavos](https://braavos.app/) or [ArgentX](https://argent.xyz/)) to complete the transaction.
+Click on the 'withdraw' button and follow the prompts on your wallet ([Braavos](https://braavos.app/) or [ArgentX](https://argent.xyz/)) to complete the transaction.
 
 ![alt](../../../../../static/content/strategy_npeeth/npeeth_withdraw_wallet.png)
 
