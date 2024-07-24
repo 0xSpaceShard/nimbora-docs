@@ -5,7 +5,7 @@ sidebar_position: 3
 sidebar_class_name: hidden
 ---
 
-**This strategy allows users to leverage their USDC holdings** by depositing USDC and using  Angle transuter to mint their stablecoin USDA, 1 for 1.  USDA is deposited in their staking solution that generates yields. 
+**This strategy allows users to leverage their USDC holdings** by minting stUSD, generating yields through RWAs and DeFi assets in Angle Protocol’s reserves.
 
 ## About Angle
 [Angle](https://www.angle.money/) is a DeFi Protocol specializing in building resilient stablecoin infrastructures. The Protocol’s main products are USDA, the most reliable USD stablecoin, and EURA (formerly agEUR), the most traded Euro stablecoin. Known for its innovative stablecoin mechanisms and reliability, Angle is ranked among the safest DeFi protocols on DeFiSafety. Backed by Andreessen Horowitz (a16z), Angle operates as a Decentralized Autonomous Organization (DAO), ensuring community-driven governance with its veANGLE token used for voting governance proposals. Angle Labs, the main contributor to Angle Protocol, also powers [Merkl](https://merkl.xyz/), a platform enabling foundations, DAOs, and protocols such as Arbitrum, Uniswap, or Aave to create tailored and efficient on-chain incentive programs to optimize their liquidity and growth.
@@ -54,15 +54,20 @@ Your yield comes from several sources -  **nstUSD  base yield** + **$STRK** *
 
 
 ## How to request a withdrawal
+You can choose between two withdrawal options - Instant and Normal.
 
-Withdrawal are not synchronous such as deposits.  Withdrawals take between 12 and 48 hours to be processed. A fast withdrawal option should arrive later on. 
+![alt](../../../../static/content/strategy_nstusd/withdraw_instant.png)
 
-
-First, you need to decide on the amount you want to withdraw. This could be all or a portion of your assets.
+Instant withdrawals factor in the price impact and set slippage. 
 
 ![alt](../../../../static/content/strategy_nstusd/withdraw.png)
 
-Once you've made up your mind, locate and click on the 'withdraw' button and follow the prompts on your wallet (Argent or Braavos) to complete the transaction.
+
+Normal withdrawals are not synchronous such as deposits and take between 12 and 48 hours to be processed.
+
+Once you have selected the withdraw tab, you will need to decide on the amount you want to withdraw. This could be all or a portion of your assets.
+
+Click on the 'withdraw' button and follow the prompts on your wallet ([Braavos](https://braavos.app/) or [ArgentX](https://argent.xyz/)) to complete the transaction.
 
 ![alt](../../../../static/content/strategy_nstusd/withdraw_confirm.png)
 

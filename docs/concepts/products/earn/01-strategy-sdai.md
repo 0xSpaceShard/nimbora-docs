@@ -60,14 +60,20 @@ Your yield comes from several sources -  **nsDAI  base yield** + **$STRK** **
 
 ## How to request a withdrawal
 
-Withdrawal are not synchronous such as deposits.  Withdrawals take between 12 and 48 hours to be processed. A fast withdrawal option should arrive later on. 
+You can choose between two withdrawal options - Instant and Normal.
+
+![alt](../../../../static/content/strategy_nsdai/strategy_nsdai_withdraw_instant.png)
+
+Instant withdrawals factor in the price impact and set slippage. 
+
+![alt](../../../../static/content/strategy_nsdai/strategy_nsdai_withdraw_normal.png)
 
 
-First, you need to decide on the amount you want to withdraw. This could be all or a portion of your assets.
+Normal withdrawals are not synchronous such as deposits and take between 12 and 48 hours to be processed.
 
-![alt](/content/strategy_nsdai/strategy_nsdai_withdraw.png)
+Once you have selected the withdraw tab, you will need to decide on the amount you want to withdraw. This could be all or a portion of your assets.
 
-Once you've made up your mind, locate and click on the 'withdraw' button and follow the prompts on your wallet (Argent or Braavos) to complete the transaction.
+Click on the 'withdraw' button and follow the prompts on your wallet ([Braavos](https://braavos.app/) or [ArgentX](https://argent.xyz/)) to complete the transaction.
 
 ![alt](/content/strategy_nsdai/strategy_nsdai_withdraw_wallet.png)
 

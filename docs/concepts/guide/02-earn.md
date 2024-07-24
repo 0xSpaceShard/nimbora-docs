@@ -11,7 +11,7 @@ There are several yield strategies with different underlying tokens and APR (Ann
 
 ![alt](/content/strategy_nsdai/strategy_nsdai.png)
 
-**APR is the percentage of assets you will earn on your deposit after a year**. If you want to deposit $100 of a certain token in a strategy, if APR is 10% avergae you'll earn $10 after a year. 
+**APR is the percentage of assets you will earn on your deposit after a year**. If you want to deposit $100 of a certain token in a strategy, if APR is 10% average you'll earn $10 after a year. 
 
 
 **APR is not fixed**. APR can change based on several factor such as market condition or the net asset value of the L1 strategy. 
@@ -61,14 +61,21 @@ And that's it, you should be able to see your balance of Nimbora yield token int
 
 ## How to request a withdrawal
 
-Withdrawal are not synchronous such as deposits.  Withdrawals take between 12 and 48 hours to be processed. A fast withdrawal option should arrive later on. 
+You can choose between two withdrawal options - Instant and Normal.
+
+![alt](../../../static/content/strategy_nsdai/strategy_nsdai_withdraw_instant.png)
 
 
-First, you need to decide on the amount you want to withdraw. This could be all or a portion of your assets.
+Instant withdrawals factor in the price impact and set slippage. 
 
-![alt](/content/strategy_nsdai/strategy_nsdai_withdraw.png)
+![alt](../../../static/content/strategy_nsdai/strategy_nsdai_withdraw_normal.png)
 
-Once you've made up your mind, locate and click on the 'withdraw' button and follow the prompts on your wallet (Argent or Braavos) to complete the transaction.
+
+Normal withdrawals are not synchronous such as deposits and take between 12 and 48 hours to be processed.
+
+Once you have selected the withdraw tab, you will need to decide on the amount you want to withdraw. This could be all or a portion of your assets.
+
+Click on the 'withdraw' button and follow the prompts on your wallet ([Braavos](https://braavos.app/) or [ArgentX](https://argent.xyz/)) to complete the transaction.
 
 ![alt](/content/strategy_nsdai/strategy_nsdai_withdraw_wallet.png)
 
