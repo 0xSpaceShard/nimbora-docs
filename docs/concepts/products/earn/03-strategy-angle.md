@@ -1,5 +1,5 @@
 ---
-id: nstUSD Strategy 
+id: nstUSD 
 title: nstUSD Strategy
 sidebar_position: 3
 sidebar_class_name: hidden
