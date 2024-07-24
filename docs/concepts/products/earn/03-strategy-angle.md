@@ -5,7 +5,7 @@ sidebar_position: 3
 sidebar_class_name: hidden
 ---
 
-**This strategy allows users to leverage their USDC holdings** by depositing USDC and using  Angle transuter to mint their stablecoin USDA, 1 for 1.  USDA is deposited in their staking solution that generates yields. 
+**This strategy allows users to leverage their USDC holdings** by minting stUSD, generating yields through RWAs and DeFi assets in Angle Protocol’s reserves.
 
 ## About Angle
 [Angle](https://www.angle.money/) is a DeFi Protocol specializing in building resilient stablecoin infrastructures. The Protocol’s main products are USDA, the most reliable USD stablecoin, and EURA (formerly agEUR), the most traded Euro stablecoin. Known for its innovative stablecoin mechanisms and reliability, Angle is ranked among the safest DeFi protocols on DeFiSafety. Backed by Andreessen Horowitz (a16z), Angle operates as a Decentralized Autonomous Organization (DAO), ensuring community-driven governance with its veANGLE token used for voting governance proposals. Angle Labs, the main contributor to Angle Protocol, also powers [Merkl](https://merkl.xyz/), a platform enabling foundations, DAOs, and protocols such as Arbitrum, Uniswap, or Aave to create tailored and efficient on-chain incentive programs to optimize their liquidity and growth.
