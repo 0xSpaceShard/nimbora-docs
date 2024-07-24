@@ -56,11 +56,11 @@ Your yield comes from several sources -  **nstUSD  base yield** + **$STRK** *
 ## How to request a withdrawal
 You can choose between two withdrawal options - Instant and Normal.
 
-![alt](../../../../static/content/strategy_nstusd/withdraw_instant.png)
+![alt](../../../../static/content/strategy_nstusd/withdraw.png)
 
 Instant withdrawals factor in the price impact and set slippage. 
 
-![alt](../../../../static/content/strategy_nstusd/withdraw.png)
+![alt](../../../../static/content/strategy_nstusd/withdraw_normal.png)
 
 
 Normal withdrawals are not synchronous such as deposits and take between 12 and 48 hours to be processed.
