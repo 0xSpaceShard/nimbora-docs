@@ -65,12 +65,17 @@ You can always check your leaderboard position and Nimbora points breakdown by c
 
 ## How to Withdraw[](https://docs.nimbora.io/docs/concepts/products/earn/pendle_lp_integration/nppETH#how-to-withdraw)
 
-Withdrawal are not synchronous such as deposits.  Withdrawals take between 12 and 48 hours to be processed. A fast withdrawal option should arrive later on. 
-
-First, you need to decide on the amount you want to withdraw. This could be all or a portion of your assets.
+You can choose between two withdrawal options - Instant and Normal.
 
 ![Untitled](../../../../../static/content/stategy_nppeth/withdraw.png)
 
+Instant withdrawals factor in the price impact and set slippage. 
+
+![Untitled](../../../../../static/content/stategy_nppeth/withdraw_normal.png)
+
+Normal withdrawals are not synchronous such as deposits and take between 12 and 48 hours to be processed.
+
+Once you have selected the withdraw tab, you will need to decide on the amount you want to withdraw. This could be all or a portion of your assets.
 
 Once you've made up your mind, locate and click on the 'withdraw' button and follow the prompts on your wallet ([Braavos](https://braavos.app/) or [ArgentX](https://argent.xyz/)) to complete the transaction.
 
