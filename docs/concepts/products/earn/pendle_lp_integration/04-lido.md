@@ -7,12 +7,7 @@ sidebar_class_name: hidden
 
 **Pendle LP strategy, earn with wstETH** 
 
-wstETH is a wrapped version of stETH. Wrapping stETH creates a DeFi-compatible version of the stETH token which allows for easier integrations with DeFi protocols including Uniswap and MakerDao. 
-
-**What is Lido** 
-
-Lido is a liquid staking protocol backed by industry-leading staking providers that supports staking for Ethereum and Polygon. Lido lets users stake their tokens - without locking tokens or maintaining infrastructure - whilst participating in on-chain activities, e.g. lending, farming and more.
-
+Liquid restaking on Ethereum repurposes staked ether to validate external systems like rollups or oracles, enhancing the ecosystem's security. Liquid Restaking Tokens (LRTs) act as a buffer against slashing events and offer higher yields than native staking. They simplify participation, manage risks, and conserve gas by batch-collecting rewards. This innovation democratizes staking, challenging established leaders, and offers growth potential, albeit with capped deposits in some systems. 
 
 
 ## Get Started[](https://docs.nimbora.io/docs/concepts/products/earn/pendle_lp_integration/wstETH#get-started)
@@ -87,8 +82,42 @@ You can consult all of your recent transactions in the wallet section. Your tran
 
 ![Untitled](../../../../../static/content/strategy_wstETH/recent.png)
 
+## What is Lido
+
+Lido is a liquid staking protocol backed by industry-leading staking providers that supports staking for Ethereum and Polygon. Lido lets users stake their tokens - without locking tokens or maintaining infrastructure - whilst participating in on-chain activities, e.g. lending, farming and more.
+
+### What is stETH 
+
+stETH is a transferable rebasing utility token representing a share of the total ETH staked through the protocol, which consists of user deposits and staking rewards. Because stETH rebases daily, it communicates the position of the share daily.
 
 
+### What is wstETH
+
+wstETH is a wrapped version of stETH. Wrapping stETH creates a DeFi-compatible version of the stETH token which allows for easier integrations with DeFi protocols including Uniswap and MakerDao.   
+
+
+## Risks of staking with Lido
+The Lido DAO is driven to mitigate above risks to the extent possible. Despite this, a number of potential risks still exist when staking ETH using Lido:
+
+1. **Smart contract security**
+
+  - There is an inherent risk that Lido Protocol could contain a smart contract vulnerability or bug. The Lido code is open-sourced, audited and covered by an extensive bug bounty program to minimise this risk.
+
+2. **Technical risk**
+
+  - Lido Protocol is built atop experimental technology under active development, and there is no guarantee that ETH has been developed error-free. Any vulnerabilities inherent to ETH brings with it slashing risk, as well as stETH fluctuation risk.
+
+3. **Adoption risk**
+
+  - The value of stETH is built around the staking rewards associated with the Ethereum beacon chain. If ETH fails to reach required levels of adoption we could experience significant fluctuations in the value of ETH and stETH.
+
+4. **Slashing risk**
+
+  - ETH validators risk staking penalties, with up to 100% of staked funds at risk if validators fail. To minimise this risk, Lido Protocol stakes across multiple professional and reputable node operators with heterogeneous setups, with additional mitigation in the form of insurance that is paid from Lido Protocol fees.
+
+5. **stETH price risk**
+
+Users risk an exchange price of stTokens which is lower than inherent value due to withdrawal restrictions on Lido, making arbitrage and risk-free market-making impossible. The Lido DAO is driven to mitigate the above risks and eliminate them entirely to the extent possible. Despite this, they may still exist and, as such, it is our duty to communicate them.
 
 ### Stay Tuned for Upgrades
 
