@@ -7,14 +7,14 @@ sidebar_class_name: hidden
 
 **Pendle LP strategy, earn with wstETH** 
 
-Liquid restaking on Ethereum repurposes staked ether to validate external systems like rollups or oracles, enhancing the ecosystem's security. Liquid Restaking Tokens (LRTs) act as a buffer against slashing events and offer higher yields than native staking. They simplify participation, manage risks, and conserve gas by batch-collecting rewards. This innovation democratizes staking, challenging established leaders, and offers growth potential, albeit with capped deposits in some systems. 
+Lido's stETH is a token representing your share of staked ETH. When you hold stETH, you will earn daily staking rewards through a supply rebase. You will earn additional yields coming from wsteth yield trading fees and auto-compound from $PENDLE liqudity mining.
 
 
 ## Get Started[](https://docs.nimbora.io/docs/concepts/products/earn/pendle_lp_integration/wstETH#get-started)
 
 Visit Nimbora dApp via invite link and connect your Starknet wallet ([Braavos](https://braavos.app/) or [ArgentX](https://argent.xyz/)).
 
-Enter the amount of ETH you want to deposit, or click on the small buttons below the box (25%, 50%, 75%, 100%) to set a desired percentage of the balance you want to deposit.
+Enter the amount of wstETH you want to deposit, or click on the small buttons below the box (25%, 50%, 75%, 100%) to set a desired percentage of the balance you want to deposit.
 
 ![Untitled](../../../../../static/content/strategy_wstETH/main.png)
 
@@ -30,7 +30,7 @@ Once the transaction has been accepted on the network, a popup will appear at th
 ![Untitled](../../../../../static/content/strategy_wstETH/deposit_accepted.png)
 
 
-As a result, you will receive wstETH, which is Liquid Restaking Token (LRT). And that's it, you should be able to see your balance of Nimbora Yield Token in the portfolio section or directly into your wallet browser.
+As a result, you will receive npstETH. And that's it, you should be able to see your balance of Nimbora Yield Token in the portfolio section or directly into your wallet browser.
 
 
 ## Your Earning Starts Immediately![](https://docs.nimbora.io/docs/concepts/products/earn/pendle_lp_integration/wstETH#your-earning-starts-immediately)
