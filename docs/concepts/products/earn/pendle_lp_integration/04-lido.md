@@ -40,7 +40,7 @@ Your yield comes from several sources -  **npstETH base yield** + **$STRK** 
 ![Untitled](../../../../../static/content/strategy_wstETH/main.png)
 
 
-1. **Base**: Represents default strategy yield that auto-compounds daily. 
+1. **Base**: Represents default strategy yield that auto-compounds daily. Nimbora is taking a 20% profit fee. The displayed base strategy APR has taken the profit fee into account.
 2. **Boost**: Represents incentives provided by the Nimbora team using the [Starknet Catalyst grant](https://medium.com/@Nimbora/nimbora-and-starknet-catalyst-program-14cc7f2f1ab5) that are claimable every two weeks.
 3. **Incentives**: Represents incentives provided by the Starknet Foundation as a part of the [DeFi Spring 2.0](https://medium.com/@Nimbora/introducing-defi-spring-2-0-bigger-bolder-better-364bb96b02d6) that are claimable every two weeks.
 
