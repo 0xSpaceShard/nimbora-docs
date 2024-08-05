@@ -48,8 +48,9 @@ As a result, you will receive nppETH, which is Liquid Restaking Token (LRT). And
 Your yield comes from several sources -  **nppETH base yield** + **$STRK** **incentives** + **Nimbora** **boost.**
 
 1. **Base**: Represents default strategy yield that auto-compounds daily. 
-2. **Boost**: Represents incentives provided by the Nimbora team using the [Starknet Catalyst grant](https://medium.com/@Nimbora/nimbora-and-starknet-catalyst-program-14cc7f2f1ab5) that are claimable every two weeks.
-3. **Incentives**: Represents incentives provided by the Starknet Foundation as a part of the [DeFi Spring 2.0](https://medium.com/@Nimbora/introducing-defi-spring-2-0-bigger-bolder-better-364bb96b02d6) that are claimable every two weeks.
+2. **Boost**: Represents incentives provided by the Nimbora team using the [Starknet Catalyst grant](https://medium.com/@Nimbora/nimbora-and-starknet-catalyst-program-14cc7f2f1ab5) that are claimable every week at the [rewards page](https://app.nimbora.io/rewards/).
+3. **Incentives**: Represents incentives provided by the Starknet Foundation as a part of the [DeFi Spring 2.0](https://medium.com/@Nimbora/introducing-defi-spring-2-0-bigger-bolder-better-364bb96b02d6) that are claimable every week at the [rewards page](https://app.nimbora.io/rewards/).
+4. **Extra: Ekubo LP** Providing Nimbora yield bearing tokens as liquidity on Ekubo is tracked and added to the total claimable STRK amount at the [rewards page](https://app.nimbora.io/rewards/).
 
 With this strategy you are also earning points for 3 protocols: 1x Nimbora, 1x Puffer, 1x EigenLayer.
 The points are harvested by our L1 smart contract. Users will have an option of voting on whether these points get sold or delegated to an EVM address. 
