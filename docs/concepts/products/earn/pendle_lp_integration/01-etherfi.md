@@ -38,7 +38,7 @@ Follow the prompts on your wallet ([Braavos](https://braavos.app/) or [ArgentX
 Once the transaction has been accepted on the network, a popup will appear at the bottom left of the screen to let you know.
 ![Untitled](../../../../../static/content/strategy_npeeth/npeeth_confirmation.png)
 
-As a result, you will receive npeETH, which is Liquid Restaking Token (LRT). And that's it, you should be able to see your balance of Nimbora Yield Token in the portfolio section or directly into your wallet browser. 
+As a result, you will receive npeETH - Nimbora yield bearing token. And that's it, you should be able to see your balance of Nimbora Yield Token in the portfolio section or directly into your wallet browser. 
 
 
 ## Your Earning Starts Immediately!
