@@ -109,7 +109,7 @@ Once the transaction has been accepted on the network, a popup will appear at th
 ![sSTRK Deposit Approve ](../../../../static/content/stategy_sstrk/deposit_approved.png)
 
 
-As a result, you will receive sSTRK, which is Liquid Restaking Token (LRT). And that's it, you should be able to see your balance of Nimbora Yield Token in the portfolio section or directly into your wallet browser. 
+As a result, you will receive sSTRK. And that's it, you should be able to see your balance of Nimbora Yield Token in the portfolio section or directly into your wallet browser. 
 
 ## How to request a withdrawal
 

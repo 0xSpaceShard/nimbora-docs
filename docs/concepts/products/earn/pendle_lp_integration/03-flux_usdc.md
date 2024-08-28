@@ -30,7 +30,7 @@ Once the transaction has been accepted on the network, a popup will appear at th
 ![Untitled](../../../../../static/content/strategy_npfusdc/deposit_accepted.png)
 
 
-As a result, you will receive npfUSDC, which is Liquid Restaking Token (LRT). And that's it, you should be able to see your balance of Nimbora Yield Token in the portfolio section or directly into your wallet browser.
+As a result, you will receive npfUSDC, Nimbora yield bearing token. And that's it, you should be able to see your balance of Nimbora Yield Token in the portfolio section or directly into your wallet browser.
 
 
 ## Your Earning Starts Immediately![](https://docs.nimbora.io/docs/concepts/products/earn/pendle_lp_integration/npfUSDC#your-earning-starts-immediately)
