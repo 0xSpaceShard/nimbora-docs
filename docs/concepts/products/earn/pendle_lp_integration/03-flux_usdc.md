@@ -30,7 +30,7 @@ Once the transaction has been accepted on the network, a popup will appear at th
 ![Untitled](../../../../../static/content/strategy_npfusdc/deposit_accepted.png)
 
 
-As a result, you will receive npfUSDC, which is Liquid Restaking Token (LRT). And that's it, you should be able to see your balance of Nimbora Yield Token in the portfolio section or directly into your wallet browser.
+As a result, you will receive npfUSDC, Nimbora yield bearing token. And that's it, you should be able to see your balance of Nimbora Yield Token in the portfolio section or directly into your wallet browser.
 
 
 ## Your Earning Starts Immediately![](https://docs.nimbora.io/docs/concepts/products/earn/pendle_lp_integration/npfUSDC#your-earning-starts-immediately)
@@ -41,8 +41,9 @@ Your yield comes from several sources -  **npfUSDC base yield** + **$STRK** 
 
 
 1. **Base**: Represents default strategy yield that auto-compounds daily. 
-2. **Boost**: Represents incentives provided by the Nimbora team using the [Starknet Catalyst grant](https://medium.com/@Nimbora/nimbora-and-starknet-catalyst-program-14cc7f2f1ab5) that are claimable every two weeks.
-3. **Incentives**: Represents incentives provided by the Starknet Foundation as a part of the [DeFi Spring 2.0](https://medium.com/@Nimbora/introducing-defi-spring-2-0-bigger-bolder-better-364bb96b02d6) that are claimable every two weeks.
+2. **Boost**: Represents incentives provided by the Nimbora team using the [Starknet Catalyst grant](https://medium.com/@Nimbora/nimbora-and-starknet-catalyst-program-14cc7f2f1ab5) that are claimable every week at the [rewards page](https://app.nimbora.io/rewards/).
+3. **Incentives**: Represents incentives provided by the Starknet Foundation as a part of the [DeFi Spring 2.0](https://medium.com/@Nimbora/introducing-defi-spring-2-0-bigger-bolder-better-364bb96b02d6) that are claimable every week at the [rewards page](https://app.nimbora.io/rewards/).
+4. **Extra: Ekubo LP** Providing Nimbora yield bearing tokens as liquidity on Ekubo is tracked and added to the total claimable STRK amount at the [rewards page](https://app.nimbora.io/rewards/).
 
 With this strategy you are also earning Nimbora points. 
 Remember, holding Nimbora yield-bearing tokens gets points based on your balance. The more and longer you hold, the more points you accumulate.
