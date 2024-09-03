@@ -40,7 +40,7 @@ Your yield comes from several sources -  **npfUSDC base yield** + **$STRK** 
 ![Untitled](../../../../../static/content/strategy_npfusdc/main.png)
 
 
-1. **Base**: Represents default strategy yield that auto-compounds daily. 
+1. **Base**: Represents default strategy yield that auto-compounds daily.  We take a 20% performance fee. The APRs displayed are what you actually receive, as our performance fee has already been accounted for.
 2. **Boost**: Represents incentives provided by the Nimbora team using the [Starknet Catalyst grant](https://medium.com/@Nimbora/nimbora-and-starknet-catalyst-program-14cc7f2f1ab5) that are claimable every week at the [rewards page](https://app.nimbora.io/rewards/).
 3. **Incentives**: Represents incentives provided by the Starknet Foundation as a part of the [DeFi Spring 2.0](https://medium.com/@Nimbora/introducing-defi-spring-2-0-bigger-bolder-better-364bb96b02d6) that are claimable every week at the [rewards page](https://app.nimbora.io/rewards/).
 4. **Extra: Ekubo LP** Providing Nimbora yield bearing tokens as liquidity on Ekubo is tracked and added to the total claimable STRK amount at the [rewards page](https://app.nimbora.io/rewards/).
