@@ -70,7 +70,7 @@ Instant withdrawals factor in the price impact and set slippage.
 ![alt](../../../../static/content/strategy_nsdai/strategy_nsdai_withdraw_normal.png)
 
 
-Normal withdrawals are not synchronous such as deposits and take between 12 and 48 hours to be processed.
+Normal withdrawals are not synchronous such as deposits and take between 24 and 48 hours to be processed.
 
 Once you have selected the withdraw tab, you will need to decide on the amount you want to withdraw. This could be all or a portion of your assets.
 
