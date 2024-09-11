@@ -13,7 +13,6 @@ This strategy combines multiple steps unto multiple protocol:
 - The SY token is splitted into PT (principal token) and YT (yield token), more details [here](https://docs.pendle.finance/ProtocolMechanics/YieldTokenization/Minting)
 - Those tokens are swapped to get the pool ratio of PT and SY tokens 
 - Once swapped, tokens are deposited into Pendle Pool to provide liquidity
-- Pool tokens issued are finally sent to a Token locker protocol (PENPIE) to boost $PENDLE rewards
 - $PENDLE rewards are sold for more underlying and compounded into the strategy
 
 ![alt](/content/pendle.png)
