@@ -20,7 +20,7 @@ export const actions = [
     title: 'What is Nimbora',
     icon: HelpCircle,
     to: '/docs/concepts/introduction',
-    text: 'Explore protocol concepts and follow our guides to earn and borrow with Nimbora.',
+    text: 'Explore protocol concepts and follow our guides to earn with Nimbora.',
     image: Spacebbit
   },
   {
@@ -58,11 +58,7 @@ export const dAppGuides = [
 ]
 
 export const strategyGuides = [
-  {
-    title: 'Borrow Strategy',
-    to: '/docs/concepts/guide/borrow',
-    text: 'Learn how to borrow LUSD',
-  },
+  
   {
     title: 'Earn Strategy',
     to: '/docs/concepts/guide/earn',
