@@ -1,11 +1,9 @@
 ---
 id: points
 title: Points
-sidebar_position: 4
+sidebar_position: 3
 ---
 ## What are Nimbora Points?[](https://docs.nimbora.io/docs/concepts/guide/points#what-are-crypto-points)
-
-![Untitled](https://i.ibb.co/LzNKDpn/Untitled-27.png)
 
 Nimbora points are designed to incentivize and reward users for actively engaging with our platform. These points serve as a metric for off-chain measuring user activity and contribution within the Nimbora ecosystem, providing rewards based on participation levels.
 
@@ -17,10 +15,8 @@ Nimbora points are designed to incentivize and reward users for actively engagin
 ### Types of Nimbora Points:
 [](https://docs.nimbora.io/docs/concepts/guide/points#types-of-crypto-points)
 
-![Untitled](https://i.ibb.co/qDFcNpc/Untitled-28.png)
 
 - **Earn Points**: Earn points for depositing assets to any of our earn strategies.
-- **Borrow Points**: Earn points for borrowing LUSD against ETH in our borrow module.
 - **Referral Points**: Earn a fraction of the points your referrals and their invitees make.
 - **Rank Points**: Earn extra points based on your leaderboard position, with the top performers having higher earning rate.
 
@@ -45,20 +41,6 @@ The median daily price sourced from Pragma oracles (if not stablecoin) is utiliz
 | 3 | 3000 | 3400 | 3400 |
 | / | Total points  |  | 9600 |
 
-### Borrow[](https://docs.nimbora.io/docs/concepts/guide/points#borrow)
-
-The borrow points are calculated based on the daily user collateral `ETH` deposited in all Liquity troves. 
-
-![Untitled](https://i.ibb.co/tby62s0/Untitled-32.png)
-
-We use the ETH median daily price fetched from Pragma oracles to calculate the pts.
-
-| Day | User’s daily ETH collateral balance | ETH price USD | Earn points |
-| --- | --- | --- | --- |
-| 1 | 1 | 3000 | 3000 |
-| 2 | 0.5 | 3200 | 1600 |
-| 3 | 0 | 2800 | 0 |
-| / | total points earn |  | 4600 |
 
 ### Referral
 
@@ -116,7 +98,6 @@ The following table was calculated using boosted balances.
 
 Rank points represent extra points earned based on your leaderboard position, with the top performers having higher earning rate. 
 
-![Untitled](https://i.ibb.co/3TSwx37/Screenshot-550.png)
 This table represents points bonus based on the leaderboard position: 
 
 | Leaderboard | Boost % |
@@ -127,14 +108,15 @@ This table represents points bonus based on the leaderboard position:
 | 501-1000 | 5% |
 | 1001+ | 0% |
 
-This table represents points breakdown with the Rank points taken into the account:
+This table represents points breakdown with the Rank points taken into account:
 
-| Leaderboard | Earn points | Borrow points | Referral points | % boost | Rank points | Total |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1-50 | 100 | 50 | 50 | 20% | 40 | 240 |
-| 51-150 | 80 | 20 | 0 | 15% | 15 | 115 |
-| 151-500 | 70 | 0 | 10 | 10% | 8 | 88 |
-| 501-1000 | 30 | 10 | 0 | 5% | 2 | 42 |
-| 1001+ | 30 | 5 | 0 | 0% | 0 | 35 |
+| Leaderboard | Earn points | Referral points | % boost | Rank points | Total |
+| --- | --- | --- | --- | --- | --- |
+| 1-50   | 100 | 50 | 20% | 30 | 180 |
+| 51-150 | 80  | 0  | 15% | 12 | 92  |
+| 151-500| 70  | 10 | 10% | 8  | 88  |
+| 501-1000| 30 | 0  | 5%  | 2  | 32  |
+| 1001+  | 30  | 0  | 0%  | 0  | 30  |
+
 
 `Info: When users have the same points the register timestamp is used to order them.`
