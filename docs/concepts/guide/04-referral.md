@@ -1,7 +1,7 @@
 ---
 id: referrals
 title: Referrals
-sidebar_position: 5
+sidebar_position: 4
 ---
 
 ## The Nimbora Affiliation Program
@@ -38,14 +38,11 @@ You can [join our Discord](https://discord.gg/nimbora) and ask for an invite in 
 
 1. Head to the app points section: [Nimbora Points](https://app.nimbora.io/points/)
 2. Find the box labeled "Refer a Friend."
-   
-   ![Refer a Friend](/content/ref.png)
-
 3. Click the copy button to get your referral link, or directly click the X icon to share it with your community instantly. You can customize the tweet as you like.
 
 ### Benefits
 
-Before calculating the referral points for each user, a boost is applied to the on-chain user's points (borrow + earn). By default, the boost is 10%, but some users who use partner links (boosted links) can receive a higher boost.
+Before calculating the referral points for each user, a boost is applied to the on-chain user's points. By default, the boost is 10%, but some users who use partner links (boosted links) can receive a higher boost.
 
 For more details, check the [points section](/docs/concepts/guide/points).
 
