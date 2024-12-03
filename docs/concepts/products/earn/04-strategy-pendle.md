@@ -81,4 +81,6 @@ Nimbora is a Starknet-based omnichain 1-click yield strategies platform that ena
 
 🐧🗞️ [Docs](https://docs.nimbora.io/)
 
-🐧🛡 [Audit](https://github.com/0xSpaceShard/nimbora_audit_report_yield_dex/blob/main/Nimbora%20Audit%20Report.pdf)
+🐧🛡 [Yield Dex Audit](https://github.com/0xSpaceShard/nimbora_audit_report_yield_dex/blob/main/Nimbora%20Audit%20Report.pdf)
+
+🐧🛡 [LST Audit](https://github.com/0xSpaceShard/nimbora-lst-public-audit/blob/main/Nimbora%20-%20Zellic%20Audit%20Report.pdf)
