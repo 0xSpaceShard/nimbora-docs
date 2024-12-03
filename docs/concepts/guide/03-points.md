@@ -4,7 +4,6 @@ title: Points
 sidebar_position: 3
 ---
 ## What are Nimbora Points?[](https://docs.nimbora.io/docs/concepts/guide/points#what-are-crypto-points)
-
 Nimbora points are designed to incentivize and reward users for actively engaging with our platform. These points serve as a metric for off-chain measuring user activity and contribution within the Nimbora ecosystem, providing rewards based on participation levels.
 
 ### Key Features of Nimbora Points:[](https://docs.nimbora.io/docs/concepts/guide/points#key-features-of-crypto-points)
