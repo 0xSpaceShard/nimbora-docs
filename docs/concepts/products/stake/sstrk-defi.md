@@ -19,17 +19,36 @@ Enter the amount of sSTRK and STRK you’d like to add and click “Confirm” a
 
 You will receive an NFT representing your position, where you can track earned rewards.
 
-![alt](../../../../static/content/stake_strk/ekubo_position.png)
 
 You get:
 
 - Trading fees from all pool activity
 - Extra DeFi Spring incentives
-- 2x Nimbora tokens for being a liquidity provider
 - Continue earning standard staking rewards
 - Contribute to the ecosystem’s liquidity
 
-### 2. Lending on Vesu
+
+
+### 2. Provide Liquidity on Nostra
+
+Put your sSTRK to work in Nostra liquidity pools, by providing liquidity to the sSTRK/STRK pool 👇 
+
+https://app.nostra.finance/pools/sSTRK-STRK/deposit
+
+![alt](../../../../static/content/stake_strk/nostra.png)
+
+Enter the amount of sSTRK and click “Deposit liquidity” and follow the wallet prompts.
+
+You will receive an [NOSTRA-sSTRK/STRK token,](https://starkscan.co/token/0x010dcf06e1fdc86c68d49a870ab895323e845100fc334b80c70d77c6b37cd6ec) representing your position. 
+
+You get:
+
+- Trading fees from all pool activity
+- Extra DeFi Spring incentives
+- Continue earning standard staking rewards
+- Contribute to the ecosystem’s liquidity
+
+### 3. Lending on Vesu
 
 Generate additional yield by lending your sSTRK in Vesu’s lending market
 
