@@ -64,7 +64,59 @@ Stack multiple benefits:
 
 You can earn from staking, trading fees, lending, and protocol incentives, all while maintaining flexibility to switch between different strategies as market conditions change. This means you can stack multiple reward streams on top of your base staking position, optimizing your yields based on market opportunities.
 
+### 4. Nostra Lending
 
+Generate additional yield by lending your sSTRK on Nostra. 
+
+➡️ https://app.nostra.finance/lend-borrow/sSTRK/deposit 
+
+![alt](../../../../static/content/stake_strk/nostra-lending.png)
+
+Stack multiple benefits:
+
+- Earn lending APR
+- Receive double Nimbora points
+- Support Starknet’s lending markets
+
+### 5. Opus
+
+Deposit sSTRK on Opus to borrow $CASH. 
+
+➡️ https://app.opus.money/troves/open
+
+![alt](../../../../static/content/stake_strk/opus.png)
+
+It lets you borrow against a portfolio of carefully curated collateral including yield-bearing assets. With minimal human intervention, the interest rates, maximum loan-to-value ratios and liquidation thresholds are dynamically determined by each user's collateral profile.
+
+The asset you are borrowing is CASH, an algorithmic overcollateralized stablecoin soft pegged to the US dollar.
+
+**How is CASH different from other stablecoins?**
+
+Opus introduces novel mechanisms that provide stronger stability guarantees to ensure that CASH is pegged to the value of USD.
+
+1. A global [multiplier](https://docs.opus.money/current/peg-stability#how-does-the-multiplier-work) is applied to increase or decrease interest rates across the board, depending on whether the spot market price of CASH is below or above peg.
+2. A [forge fee](https://docs.opus.money/current/peg-stability#how-do-forge-fees-work) is charged on minting of new debt when the spot market price of CASH is below peg.
+
+Learn more about Opus and CASH
+
+➡️ https://docs.opus.money/current/ 
+
+### 6. Haiko
+
+Deposit to Haiko replicating solver.
+
+➡️ https://app.haiko.xyz/vaults/positions?type=solver&address=0x73cc79b07a02fe5dcd714903d62f9f3081e15aeb34e3725f44e495ecd88a5a1&marketId=0xf2d72b2feb2998ebe9104f074be7bac04d378622f2d8344983a012106648d5&tab=deposit
+
+![alt](../../../../static/content/stake_strk/haiko.png)
+
+ **What are Solvers?**
+
+Solvers are a new, improved framework for building Haiko Vaults. They take the best parts of Strategies (i.e. convenience, 1-click automation) and make them simpler, more powerful, and less error-prone.
+
+Solver Vaults introduce new features such as:
+
+- **Zero cost rebalancing:** rebuilt from the ground up with a new architecture, Solvers are now stateless and can be rebalanced without any on-chain position updates, at zero gas cost to both swappers and LPs
+- **Impermanent Loss caps**: pools can apply a hard cap on impermanent loss by rejecting swaps that bring the pool above its maximum allowed level portfolio skew
 
 # **Security First**
 
