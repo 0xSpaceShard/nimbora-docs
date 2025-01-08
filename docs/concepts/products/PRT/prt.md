@@ -12,7 +12,7 @@ You can review the list of eligible users in this [spreadsheet](https://docs.goo
 
 ## Get Started
 
-Visit [nimbora.io/refund](http://nimbora.io/refund) and connect your wallet. 
+Visit [app.nimbora.io/refund](http://app.nimbora.io/refund) and connect your wallet. 
 
 You will be prompted to add your Arbitrum address.
 
