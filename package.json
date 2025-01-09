@@ -27,7 +27,7 @@
     "react-dom": "^18.0.0",
     "react-feather": "^2.0.10",
     "theme": "^0.1.0",
-    "@snyk/protect": "latest"
+    "@snyk/protect": "1.1293.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.1.1",

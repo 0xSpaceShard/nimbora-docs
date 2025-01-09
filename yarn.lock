@@ -1972,10 +1972,10 @@
     p-map "^4.0.0"
     webpack-sources "^3.2.2"
 
-"@snyk/protect@latest":
-  version "1.1291.0"
-  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1291.0.tgz#95c8a53c4d6711aeff9a853d0c82c07c84d6982a"
-  integrity sha512-BRbgzSOSlzIBmhdEqM0y0q8uhYd2h+tfl3OuMH62JvQ+AI9lFV5Va99gl+wqS8GBBOohQmIh4HnuD25LMCdO7Q==
+"@snyk/protect@1.1293.0":
+  version "1.1293.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1293.0.tgz#499c72d6900c86451335a45c34b2b8487747a5e1"
+  integrity sha512-k7Xv0lgFskXGjbnhKWmrBNG8d2DHuvEWFu5rVV6ppjDme30nAGn1pvX3XwEeLp9AcovJWjechUOusyNn6S7JKA==
 
 "@svgr/babel-plugin-add-jsx-attribute@^6.5.1":
   version "6.5.1"
