@@ -30,9 +30,9 @@ To create a test account run the script `./account.sh`. Follow the instructions 
 ## ENVs
 Update the ENVs inside the .env file
 ```plaintext
-STARKNET_NETWORK= network goerli ot mainnet
+STARKNET_NETWORK= network goerli or mainnet
 ACCOUNT_ADDRESS= account address
-ACCOUNT_PK= account provate key
+ACCOUNT_PK= account private key
 ```
 
 ## Declare With Starkli
